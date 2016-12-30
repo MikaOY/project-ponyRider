@@ -1,0 +1,42 @@
+/* Scss Document */
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Cabin|Montserrat:400,700|Patua+One");
+#myCarousel {
+  padding-top: 60px; }
+
+.arrow {
+  position: absolute;
+  top: 50%; }
+
+#info-1 {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: #f48657; }
+
+#info-2 {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: #f48657; }
+
+#info-3 {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: #f48657; }
+
+.carousel-caption {
+  font-family: "Patua One";
+  color: #f48657; }
+
+/*# sourceMappingURL=index.css.map */

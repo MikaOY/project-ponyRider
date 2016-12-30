@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:400,700|Patua+One');
+@import 'globals';
+
+// Mixins
+
+@mixin full-width () {
+    width: 100%;
+}
+
+// Rules
+
+footer {
+    background-color: $primary;
+}
+
+#footer-div {
+    float: left;
+    clear: left;
+}
+
+#logo-nav {
+    float: none;
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+ul.white-text {
+    list-style-type: none;
+    color: $contrast;
+
+    li {
+        a {
+            color: $contrast;
+        }
+    }
+}
+
+#footer-logo {
+    display: block;
+    float: left;
+    width: 35%;
+    min-width: 220px;
+    max-width: 275px;
+    padding: 20px 15px;    
+}
+
+#footer-nav {
+    float: right;
+    margin: auto;
+    width: fit-content;
+
+    #footer-links {
+        float: right;
+        padding: 30px 0 20px 30px;
+        font-family: $nice-font;
+
+        li {
+            display: block;
+        }  
+    }
+}
+
+#socials-div {
+    margin: auto;
+    float: right;
+}
+
+#social-info {
+    margin: auto;
+    width: fit-content;
+    padding: 0 0 30px 0;
+}
+
+#social-icons {
+    margin: auto;
+    width: fit-content;
+}
+
+ul.side-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        display: inline;
+    }
+}
+
+#social-text {
+    margin: auto;
+    width: fit-content;
+}
+
+span.icon {
+    color: $contrast;
+    margin: 20px 10px;
+}
+
+// Breakpoint for stacking divs
+@media screen and (max-width: 758px) {
+    #footer-div {
+        @include full-width();
+    }
+
+    #footer-links {
+        margin: 0 -10px;
+    }
+
+    #socials-div {
+        @include full-width();
+    }
+}
+
+// Breakpoint for crowded logo and nav
+@media screen and (max-width: 480px) {
+    #logo-nav {
+        float: left;
+    }
+
+    #footer-logo {
+        float: left;
+        padding: 20px 30px; 
+    }
+
+    #footer-nav {
+        float: left;
+    }
+}
