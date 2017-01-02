@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
 <title>RAMEN</title>
 
 <!--[if lt IE 9]>
@@ -11,6 +12,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+	<!-- Firebase Testing Server -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBWFJygLi-GFC0_mDp5o8ORJLR7t2gwBuw",
+		authDomain: "ramen-testing.firebaseapp.com",
+		databaseURL: "https://ramen-testing.firebaseio.com",
+		storageBucket: "ramen-testing.appspot.com",
+		messagingSenderId: "495537126258"
+	};
+	firebase.initializeApp(config);
+	</script>
+
   <!-- Font Awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -52,30 +67,38 @@
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
 		</ol>
 
 		<!-- Wrapper for slides 
 			Image dimensions: 1920 x 800 -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="resources/Web Two Cats.jpg" alt="Two 3D printed cats">
+				<a href="http://www.shapeways.com/product/JVXSARUL6/a-cat?optionId=61313056" target="_blank">
+					<img src="resources/Web Two Cats.jpg" alt="Two 3D printed cats"></a>
 				<div id="info-1">
-					<h1 class="carousel-caption">Creativity reinvented.</h1>
+					<h1 id="cap-1">Creativity reinvented.</h1>
+					<p id="p-1"><b>RAMEN</b> is a visionary group redefining learning. <a href="#learning"><b>Learn more</b></a> 
+					about how we innovate.
+					</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="resources/Web Two Cats.jpg" alt="Two 3D printed cats">
+				<img src="resources/ Web Laughing B&W.jpg" alt="Us laughing">
 				<div id="info-2">
-					<h1 class="carousel-caption">Making everything, including the way.</h1>
+					<h1 id="cap-2">United by passion for discovery.</h1>
+					<p id="p-2">Great people make a great RAMEN. Get to know us <a href="#about"><b>here</b></a>.
+					</p>
 				</div>
 			</div>
 			<div class="item">
-				<img src="resources/Web Two Cats.jpg" alt="Two 3D printed cats">
+				<img src="resources/Web BLU Floor.jpg" alt="Simon and Mika at work">
 				<div id="info-3">
-					<h1 class="carousel-caption">Driven by passion to learn about our world (and others).</h1>
+					<h1 id="cap-3">Resilient. Tenacious. Unstoppable.</h1> 
+					<p id="p-3">We push <b>RAMEN</b> to great heights through all odds. <a href="#"><b>Support us</b></a> 
+					to fuel our efforts further.
+					</p>
 				</div>
-			</div>
+			</div> 
 		</div>
 
 		<!-- Left and right controls -->
@@ -89,7 +112,90 @@
 		</a>
 	</div>
 
-	<
+	<!-- Projects -->
+	<div id="learning" class="row">
+		<div class="col-sm-8">
+			<div id="make-div">
+				<h2>Make to live,<br> live to make.</h2>
+				<p>Here at <b>RAMEN</b>, we make things to understand them.<br>
+				Our work speaks for itself.
+				</p>
+				<br>
+				<h4><a href="#">Discover our projects <br> (coming soon)</a></h4>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<h4 id="list-h">What We Do</h4>
+			<ul class="ul-centered">
+				<li>electronics</li>
+				<li><code>programming</code></li>
+			</ul>
+			<ul class="ul-centered">
+				<li>engineering</li>								
+				<li>resource management</li>				
+			</ul>
+			<ul class="ul-centered">
+				<li>graphic design</li>				
+				<li>mobile development</li>
+			</ul>
+			<ul class="ul-centered">
+				<li>web design</li>		
+				<li>video editing</li>						
+			</ul>
+		</div>
+	</div>
+	
+	<!-- Our Story -->
+	<div id="about">
+		<h1 id="about-h">Who We Are</h1>
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<img class="rounded-img" src="resources/Web Simon.jpg" align="middle">
+				<h3 class="personal-h">Simon Jeong</h3>
+				<p class="personal-p"><span class="oomph">Deep thinker. <br> Steadfast learner. <br> Hardcore philosopher. </span><br>
+				<br>
+				Simon constantly questions everything around him, learning much in the process. <br>
+				He spends his spare time learning the guitar and dreaming about his first Macbook.</p>
+				<div class="personal-socials">
+					<a href="https://www.facebook.com/simon20000808?fref=ts" target="_blank">
+						<span class="fa fa-2x fa-facebook" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<img class="rounded-img" src="resources/Web Mika.jpg" align="middle">
+				<h3 class="personal-h">Mika Yeap</h3>
+				<p class="personal-p"><span class="oomph">Spirited programmer. <br> Eclectic designer. <br> Avid dreamer. </span><br>
+				<br>
+				Mika is thougtful, determined, and pedantically productive. <br>
+				He spends his spare time either learning new skills or hugging his best friend to unwind.</p>
+				<div class="personal-socials">
+					<a href="https://www.facebook.com/MikaOYeap" target="_blank">
+						<span class="fa fa-2x fa-facebook" aria-hidden="true"></span>
+					</a>
+					<a href="https://twitter.com/mikayeap" target="_blank">
+						<span class="fa fa-2x fa-twitter" aria-hidden="true"></span>
+					</a>
+					<a href="https://www.linkedin.com/in/mika-yeap-22b1b1135?trk=nav_responsive_tab_profile_pic" target="_blank">
+						<span class="fa fa-2x fa-linkedin" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<img class="rounded-img" src="resources/Web Albert.jpg" align="middle">
+				<h3 class="personal-h">Albert Jeong</h3>
+				<p class="personal-p"><span class="oomph">Casual innovator. <br> Talented musician. <br> Chronic procrascinator. </span><br>
+				<br>
+				Albert is a Maker in plain sight, revealing ideas and talents extremely unexpectedly. <br> 
+				He spends his spare time playing music and expanding his social tree.</p>
+				<div class="personal-socials">
+					<a href="https://www.facebook.com/albert.jeong.75?fref=ts" target="_blank">
+						<span class="fa fa-2x fa-facebook" aria-hidden="true"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<footer id="custom-footer"></footer>
 </body>

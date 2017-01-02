@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "aurelia-test-ca1ce"
+    "default": "aurelia-test-ca1ce",
+    "testing": "ramen-testing"
   }
 }
