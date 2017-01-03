@@ -89,7 +89,7 @@ div.carousel-div {
 	#cap-3 {
 		@extend .carousel-cap;
 		left: 15%;
-		bottom: 21%;
+		bottom: 22%;
 		width: 100%;		
 		text-align: left;
 	}
@@ -244,6 +244,18 @@ div.carousel-div {
 	text-align: center;
 
 	a {
-		padding: 3%;
+		padding-right: 5%;
 	}
+}
+
+#support-div {
+	padding: 7%;
+}
+
+#support-h {
+	margin-bottom: 3%;
+}
+
+#support-p {
+	margin-bottom: 5%;
 }

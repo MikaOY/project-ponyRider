@@ -71,7 +71,7 @@ div.carousel-div, #info-1, #info-2, #info-3 {
   left: 0%; }
   #info-3 #cap-3 {
     left: 15%;
-    bottom: 21%;
+    bottom: 22%;
     width: 100%;
     text-align: left; }
   #info-3 #p-3 {
@@ -202,6 +202,15 @@ div.carousel-div, #info-1, #info-2, #info-3 {
   width: 100%;
   text-align: center; }
   .personal-socials a {
-    padding: 3%; }
+    padding-right: 5%; }
+
+#support-div {
+  padding: 7%; }
+
+#support-h {
+  margin-bottom: 3%; }
+
+#support-p {
+  margin-bottom: 5%; }
 
 /*# sourceMappingURL=index.css.map */
