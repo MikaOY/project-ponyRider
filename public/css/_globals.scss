@@ -2,7 +2,7 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One');
 
-// Universal variables 
+// Site-wide fonts + colors
 
 $plain-font: 'Montserrat';
 $nice-font: 'Patua One';
@@ -11,3 +11,22 @@ $primary: rgb(244, 134, 87);
 $contrast: rgb(255, 255, 255);
 $red: #f03d3d;
 $easy-read: rgba(0, 0, 0, 0.4);
+
+// Bootstrap variables
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+// Useful selectors
+
+ul.side-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+        display: inline;
+    }
+}

@@ -159,6 +159,48 @@ div.carousel-div {
 	padding-bottom: 5%;
 }
 
+// Same-height columns
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+* And with max cross-browser enabled.
+* Nobody should ever write this by hand. 
+* Use a preprocesser with autoprefixing.
+*/
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+// Same height columns
+
+.about-col {
+	margin-bottom: 5%;
+}
+
 #about-h {
 	margin: auto;
 	margin-top: 5%;
@@ -185,17 +227,23 @@ div.carousel-div {
 
 .personal-p {
 	margin: auto;
-	margin-bottom: 10%;
+	margin-bottom: 20%;
 	width: 70%;
 	text-align: center;
+
+	@media screen and (max-width: 1199px) {
+		padding-top: 5%;
+		text-align: left;
+	}
 }
 
 .personal-socials {
-	margin: auto;
-	width: 90%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	text-align: center;
 
 	a {
-		padding: 4%;
+		padding: 3%;
 	}
 }
