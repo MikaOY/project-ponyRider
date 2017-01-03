@@ -37,6 +37,12 @@ html {
     background: blue;
 }
 */
+.alert {
+  font-size: 15px; }
+  @media screen and (max-width: 433px) {
+    .alert {
+      font-size: 12.5px; } }
+
 #myCarousel {
   padding-top: 60px; }
 
