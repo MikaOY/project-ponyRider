@@ -9,6 +9,9 @@ ul.side-list {
   ul.side-list li {
     display: inline; }
 
+a.no-line:hover {
+  text-decoration: none; }
+
 footer {
   background-color: #f48657; }
 
