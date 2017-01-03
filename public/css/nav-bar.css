@@ -3,6 +3,14 @@
 .nice {
   font-family: "Patua One"; }
 
+.easy-read {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4); }
+
 ul.side-list {
   margin: 0;
   padding: 0;

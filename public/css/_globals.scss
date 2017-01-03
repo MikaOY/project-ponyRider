@@ -25,6 +25,15 @@ $xl: 1200px;
     font-family: $nice-font;
 }
 
+.easy-read {
+	color: $contrast;
+	background-color: $easy-read;
+	text-shadow: none;
+	-moz-box-shadow: 0 0 16px $easy-read;
+	-webkit-box-shadow: 0 0 16px $easy-read;
+	box-shadow: 0 0 16px $easy-read;
+}
+
 ul.side-list {
     margin: 0;
     padding: 0;
@@ -38,3 +47,4 @@ ul.side-list {
 a.no-line:hover {
     text-decoration: none;
 }
+

@@ -1,6 +1,22 @@
 /* Scss Document */
 @import 'css/globals';
 
+// Hides scroll bar
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in blue
+::-webkit-scrollbar-thumb {
+    background: blue;
+}
+*/
+// Hides scroll bar
+
 #myCarousel {
 	padding-top: 60px;
 }
@@ -10,8 +26,13 @@
 	top: 50%;
 }
 
-.oomph {
-	font-family: $nice-font;
+.arrow-left {
+	@extend .arrow;
+}
+
+.arrow-right {
+	@extend .arrow;
+	margin-left: -30%;
 }
 
 // To extend
@@ -26,80 +47,111 @@ div.carousel-div {
 	color: $primary;
 }
 
-.carousel-cap {
+.carousel-indicators {
 	position: absolute;
-	color: $primary;
+	bottom: -2%;
+
+	@media screen and (max-width: $sm) {
+		bottom: -5%;
+	}
 }
 
-.easy-read {
+.carousel-control {
+	width: 7%;
+}
+
+.carousel-cap {
+	position: relative;
+	float: left;
+	color: $primary;
+	font-size: 5.5vw;
+}
+
+.carousel-p {
+	position: relative;
+	float: left;
 	color: $contrast;
-	background-color: $easy-read;
-	text-shadow: none;
-	-moz-box-shadow: 0 0 16px $easy-read;
-	-webkit-box-shadow: 0 0 16px $easy-read;
-	box-shadow: 0 0 16px $easy-read;
+	font-size: 2vw;
 }
 // To extend
 
 #info-1 {
 	@extend div.carousel-div;
-	left: 50%;
+	left: 0%;
+	right: 50%;
 
 	#cap-1 {
 		@extend .carousel-cap;
-		left: 20%;
-		bottom: 27%;
+		width: 100%;
+		margin-top: 27%;
+		margin-bottom: 2%;
+		margin-left: 27%;
 		text-align: left;
+		font-size: 6vw;
+
+		@media screen and (max-width: $md) {
+			margin-top: 23%;
+		}
 	}
 
 	#p-1 {
-		position: absolute;
-		left: 20%;
-		bottom: 10%;
-		width: 50%;
-		color: $contrast;
+		@extend .carousel-p;
+		width: 100%;
+		margin-bottom: 3%;
+		margin-left: 27%;
 	}
 }
 
 #info-2 {
 	@extend div.carousel-div;
-	left: 0%;
+	left: 50%;
 
 	#cap-2 {
 		@extend .carousel-cap;
-		left: 30%;
-		bottom: 22%;
-		text-align: left;
+		float: right;
+		width: 70%;
+		margin-top: 29%;
+		margin-bottom: 2%;
+		margin-right: 25%;
+		text-align: right;
+
+		@media screen and (max-width: $sm) {
+			margin-top: 24%;
+		}
 	}
 
 	#p-2 {
-		position: absolute;
-		left: 30%;
-		bottom: 10%;
-		width: 50%;
-		color: $contrast;
+		@extend .carousel-p;
+		float: right;
+		width: 70%;
+		margin-bottom: 3%;
+		margin-right: 25%;
+		text-align: right;
 	}
 }
 
 #info-3 {
 	@extend div.carousel-div;
-	width: 70%;
 	left: 0%;
 
 	#cap-3 {
 		@extend .carousel-cap;
-		left: 15%;
-		bottom: 22%;
-		width: 100%;		
+		width: 100%;
+		margin-top: 30%;
+		margin-bottom: 2%;
+		margin-left: 24%;
 		text-align: left;
+
+		@media screen and (max-width: $md) {
+			margin-top: 24%;
+		}
 	}
 
 	#p-3 {
-		position: absolute;
-		left: 15%;
-		bottom: 10%;
-		width: 60%;
-		color: $contrast;
+		@extend .carousel-p;
+		width: 70%;
+		margin-bottom: 3%;
+		margin-left: 24%;
 	}
 }
 

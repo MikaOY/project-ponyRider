@@ -4,6 +4,14 @@
 .nice {
   font-family: "Patua One"; }
 
+.easy-read {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-shadow: none;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4); }
+
 ul.side-list {
   margin: 0;
   padding: 0;
@@ -14,15 +22,30 @@ ul.side-list {
 a.no-line:hover {
   text-decoration: none; }
 
+html {
+  overflow: scroll;
+  overflow-x: hidden; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */ }
+
+/* optional: show position indicator in blue
+::-webkit-scrollbar-thumb {
+    background: blue;
+}
+*/
 #myCarousel {
   padding-top: 60px; }
 
-.arrow {
+.arrow, .arrow-left, .arrow-right {
   position: absolute;
   top: 50%; }
 
-.oomph {
-  font-family: "Patua One"; }
+.arrow-right {
+  margin-left: -30%; }
 
 div.carousel-div, #info-1, #info-2, #info-3 {
   position: absolute;
@@ -34,58 +57,80 @@ div.carousel-div, #info-1, #info-2, #info-3 {
   text-align: left;
   color: #f48657; }
 
-.carousel-cap, #info-1 #cap-1, #info-2 #cap-2, #info-3 #cap-3 {
+.carousel-indicators {
   position: absolute;
-  color: #f48657; }
+  bottom: -2%; }
+  @media screen and (max-width: 576px) {
+    .carousel-indicators {
+      bottom: -5%; } }
 
-.easy-read {
+.carousel-control {
+  width: 7%; }
+
+.carousel-cap, #info-1 #cap-1, #info-2 #cap-2, #info-3 #cap-3 {
+  position: relative;
+  float: left;
+  color: #f48657;
+  font-size: 5.5vw; }
+
+.carousel-p, #info-1 #p-1, #info-2 #p-2, #info-3 #p-3 {
+  position: relative;
+  float: left;
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
-  text-shadow: none;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4); }
+  font-size: 2vw; }
 
 #info-1 {
-  left: 50%; }
+  left: 0%;
+  right: 50%; }
   #info-1 #cap-1 {
-    left: 20%;
-    bottom: 27%;
-    text-align: left; }
+    width: 100%;
+    margin-top: 27%;
+    margin-bottom: 2%;
+    margin-left: 27%;
+    text-align: left;
+    font-size: 6vw; }
+    @media screen and (max-width: 768px) {
+      #info-1 #cap-1 {
+        margin-top: 23%; } }
   #info-1 #p-1 {
-    position: absolute;
-    left: 20%;
-    bottom: 10%;
-    width: 50%;
-    color: white; }
+    width: 100%;
+    margin-bottom: 3%;
+    margin-left: 27%; }
 
 #info-2 {
-  left: 0%; }
+  left: 50%; }
   #info-2 #cap-2 {
-    left: 30%;
-    bottom: 22%;
-    text-align: left; }
+    float: right;
+    width: 70%;
+    margin-top: 29%;
+    margin-bottom: 2%;
+    margin-right: 25%;
+    text-align: right; }
+    @media screen and (max-width: 576px) {
+      #info-2 #cap-2 {
+        margin-top: 24%; } }
   #info-2 #p-2 {
-    position: absolute;
-    left: 30%;
-    bottom: 10%;
-    width: 50%;
-    color: white; }
+    float: right;
+    width: 70%;
+    margin-bottom: 3%;
+    margin-right: 25%;
+    text-align: right; }
 
 #info-3 {
-  width: 70%;
   left: 0%; }
   #info-3 #cap-3 {
-    left: 15%;
-    bottom: 22%;
     width: 100%;
+    margin-top: 30%;
+    margin-bottom: 2%;
+    margin-left: 24%;
     text-align: left; }
+    @media screen and (max-width: 768px) {
+      #info-3 #cap-3 {
+        margin-top: 24%; } }
   #info-3 #p-3 {
-    position: absolute;
-    left: 15%;
-    bottom: 10%;
-    width: 60%;
-    color: white; }
+    width: 70%;
+    margin-bottom: 3%;
+    margin-left: 24%; }
 
 #list-h {
   margin-left: -42%;
