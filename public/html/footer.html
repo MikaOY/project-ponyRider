@@ -10,6 +10,20 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Firebase Testing Server -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBWFJygLi-GFC0_mDp5o8ORJLR7t2gwBuw",
+		authDomain: "ramen-testing.firebaseapp.com",
+		databaseURL: "https://ramen-testing.firebaseio.com",
+		storageBucket: "ramen-testing.appspot.com",
+		messagingSenderId: "495537126258"
+	};
+	firebase.initializeApp(config);
+	</script>
    
    <!-- Font Awesome -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
@@ -35,11 +49,10 @@
                     <img id="footer-logo" src="../resources/ramen-white.png" alt="Our logo">
                     <div id="footer-nav">
                         <ul id="footer-links" class="white-text">
-                            <li><a href="#"><font size="5.5">Home </font></a></li>
-                            <li><a href="#"><font size="5.5">Projects </font></a></li> 
-                            <li><a href="#"><font size="5.5">About </font></a></li> 
-                            <li><a href="#"><font size="5.5">Support </font></a></li> 
-                            <li><a href="#"><font size="5.5">Contact</font></a></li> 
+                            <li><a href="/public/index.html"><font size="5.5">Home </font></a></li>
+                            <li><a href="/public/index.html/#projects"><font size="5.5">Projects </font></a></li> 
+                            <li><a href="/public/index.html/#about"><font size="5.5">About </font></a></li> 
+                            <li><a href="/public/index.html/#support"><font size="5.5">Support </font></a></li> 
                         </ul>
                     </div>
                 </div>
