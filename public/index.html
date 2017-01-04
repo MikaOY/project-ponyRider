@@ -12,7 +12,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-	<!-- Firebase Testing Server -->
+	<!-- Firebase Testing Server 
 	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 	<script>
 	// Initialize Firebase
@@ -22,6 +22,21 @@
 		databaseURL: "https://ramen-testing.firebaseio.com",
 		storageBucket: "ramen-testing.appspot.com",
 		messagingSenderId: "495537126258"
+	};
+	firebase.initializeApp(config);
+	</script>
+	-->
+
+	<!-- Actual Firebase Server -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBdpPno5QKrz2P58EG0KYG3EJIgabiXwik",
+		authDomain: "ramen-website-ac51f.firebaseapp.com",
+		databaseURL: "https://ramen-website-ac51f.firebaseio.com",
+		storageBucket: "ramen-website-ac51f.appspot.com",
+		messagingSenderId: "1092712543340"
 	};
 	firebase.initializeApp(config);
 	</script>
@@ -206,7 +221,7 @@
 					<div class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-12">
 						<p class="personal-p"><span class="oomph nice">Spirited programmer. <br> Eclectic designer. <br> Aspiration expert. </span><br>
 							<br>
-							Mika spends his spare time either learning new skills or talking to his best friend to unwind.
+							Mika spends his spare time either learning new skills or hugging his best friend to unwind.
 						</p>
 					</div>
 				</div>

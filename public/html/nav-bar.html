@@ -11,7 +11,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <!-- Firebase Testing Server -->
+  <!-- Firebase Testing Server 
 	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
 	<script>
 	// Initialize Firebase
@@ -21,6 +21,21 @@
 		databaseURL: "https://ramen-testing.firebaseio.com",
 		storageBucket: "ramen-testing.appspot.com",
 		messagingSenderId: "495537126258"
+	};
+	firebase.initializeApp(config);
+	</script>
+  -->
+
+  <!-- Actual Firebase Server -->
+	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyBdpPno5QKrz2P58EG0KYG3EJIgabiXwik",
+		authDomain: "ramen-website-ac51f.firebaseapp.com",
+		databaseURL: "https://ramen-website-ac51f.firebaseio.com",
+		storageBucket: "ramen-website-ac51f.appspot.com",
+		messagingSenderId: "1092712543340"
 	};
 	firebase.initializeApp(config);
 	</script>
@@ -59,19 +74,18 @@
     <div class="collapse navbar-collapse" id="commonNav">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+        <li class="dropdown"><a href="#projects" class="dropdown-toggle" data-toggle="dropdown" role="button" 
           aria-expanded="false">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Project BLU</a></li>
-            <li><a href="#">Project CaMo</a></li>
+            <li><a href="#">Project BLU (coming soon)</a></li>
+            <li><a href="#">Project CaMo (coming soon)</a></li>
             <li class="divider"></li>
-            <li><a href="#">Project RAD</a></li>
-            <li><a href="#">Project MakerMaker</a></li>
+            <li><a href="#">Project RAD (coming soon)</a></li>
+            <li><a href="#">Project MakerMaker (coming soon)</a></li>
           </ul>
         </li>
-        <li><a href="#">Our Story</a></li>
-        <li><a href="#">Support Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#support">Support Us</a></li>
       </ul>
       <!--
       <form class="navbar-form navbar-right" role="search">
