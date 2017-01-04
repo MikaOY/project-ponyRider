@@ -8,11 +8,11 @@
 
 .easy-read {
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   text-shadow: none;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4); }
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
 
 ul.side-list {
   margin: 0;

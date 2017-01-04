@@ -9,11 +9,11 @@
 
 .easy-read {
   color: white;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   text-shadow: none;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4); }
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
 
 ul.side-list {
   margin: 0;
@@ -40,21 +40,56 @@ html {
     background: blue;
 }
 */
-.alert {
-  font-size: 15px; }
-  @media screen and (max-width: 433px) {
-    .alert {
-      font-size: 12.5px; } }
+@media screen and (max-width: 767px) {
+  .mobile-cap, .mobile.cap-1, .mobile.cap-2, .mobile.cap-3 {
+    font-size: 10vw !important; }
 
-#myCarousel {
+  .mobile-p, .mobile.p-1, .mobile.p-2, .mobile.p-3 {
+    font-size: 3vw !important; }
+
+  #my-carousel {
+    display: none !important; }
+
+  #mobile-carousel {
+    display: block !important; }
+
+  #mobile-div-1, #mobile-div-2, #mobile-div-3 {
+    position: relative; }
+
+  .mobile-img {
+    width: 100%; }
+
+  .mobile.cap-1 {
+    margin-top: 3% !important;
+    margin-left: 15% !important; }
+
+  .mobile.p-1 {
+    margin-left: 15% !important; }
+
+  .mobile.cap-2 {
+    margin-top: 7% !important;
+    width: 200% !important;
+    font-size: 9vw !important; }
+
+  .mobile.p-2 {
+    width: 100% !important; }
+
+  .mobile.info-3 {
+    width: 65%; }
+
+  .mobile.cap-3 {
+    margin-top: 4% !important;
+    margin-left: 15% !important;
+    font-size: 9vw !important; }
+
+  .mobile.p-3 {
+    margin-left: 15% !important; } }
+#my-carousel {
+  display: block;
   padding-top: 60px; }
 
-.arrow, .arrow-left, .arrow-right {
-  position: absolute;
-  top: 50%; }
-
-.arrow-right {
-  margin-left: -30%; }
+#mobile-carousel {
+  display: none; }
 
 .carousel-logo {
   position: absolute;
@@ -62,7 +97,14 @@ html {
   bottom: 15%;
   width: 20%; }
 
-div.carousel-div, #info-1, #info-2, #info-3 {
+.carousel-indicators {
+  position: absolute;
+  bottom: -2%; }
+
+.carousel-control {
+  width: 8%; }
+
+div.carousel-div, .info-1, .info-2, .info-3 {
   position: absolute;
   bottom: 0%;
   top: 0%;
@@ -72,88 +114,80 @@ div.carousel-div, #info-1, #info-2, #info-3 {
   text-align: left;
   color: #f48657; }
 
-.carousel-indicators {
-  position: absolute;
-  bottom: -2%; }
-  @media screen and (max-width: 576px) {
-    .carousel-indicators {
-      bottom: -5%; } }
-
-.carousel-control {
-  width: 7%; }
-
-.carousel-cap, #info-1 #cap-1, #info-2 #cap-2, #info-3 #cap-3 {
+.carousel-cap, .info-1 .cap-1, .info-2 .cap-2, .info-3 .cap-3 {
   position: relative;
   float: left;
   color: #f48657;
-  font-size: 5.5vw; }
+  font-size: 6.5vw; }
 
-.carousel-p, #info-1 #p-1, #info-2 #p-2, #info-3 #p-3 {
+.carousel-p, .info-1 .p-1, .info-2 .p-2, .info-3 .p-3 {
   position: relative;
   float: left;
   color: white;
   font-size: 2vw; }
 
-#info-1 {
+.info-1 {
   left: 0%;
   right: 50%; }
-  #info-1 #cap-1 {
+  .info-1 .cap-1 {
     width: 100%;
     margin-top: 27%;
     margin-bottom: 2%;
     margin-left: 27%;
-    text-align: left;
-    font-size: 6vw; }
-    @media screen and (max-width: 768px) {
-      #info-1 #cap-1 {
-        margin-top: 23%; } }
-  #info-1 #p-1 {
+    text-align: left; }
+  .info-1 .p-1 {
     width: 100%;
     margin-bottom: 3%;
     margin-left: 27%; }
 
-#info-2 {
+.info-2 {
   left: 50%; }
-  #info-2 #cap-2 {
+  .info-2 .cap-2 {
     float: right;
-    width: 70%;
-    margin-top: 29%;
+    width: 100%;
+    margin-top: 23%;
     margin-bottom: 2%;
     margin-right: 25%;
     text-align: right; }
-    @media screen and (max-width: 576px) {
-      #info-2 #cap-2 {
-        margin-top: 24%; } }
-  #info-2 #p-2 {
+  .info-2 .p-2 {
     float: right;
     width: 70%;
     margin-bottom: 3%;
     margin-right: 25%;
     text-align: right; }
 
-#info-3 {
+.info-3 {
   left: 0%; }
-  #info-3 #cap-3 {
+  .info-3 .cap-3 {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 23%;
     margin-bottom: 2%;
     margin-left: 24%;
     text-align: left; }
-    @media screen and (max-width: 768px) {
-      #info-3 #cap-3 {
-        margin-top: 24%; } }
-  #info-3 #p-3 {
-    width: 70%;
+  .info-3 .p-3 {
+    width: 100%;
     margin-bottom: 3%;
     margin-left: 24%; }
 
-#list-h {
+.alert {
+  font-size: 15px; }
+  @media screen and (max-width: 433px) {
+    .alert {
+      font-size: 12.5px; } }
+
+#make-div {
+  padding-left: 10%;
+  padding-top: 7%;
+  padding-right: 7%;
+  padding-bottom: 9%; }
+
+#skill-list-h {
   margin-left: -42%;
   margin-top: 10%;
   margin-bottom: -3%;
   text-align: center; }
   @media screen and (max-width: 767px) {
-    #list-h {
+    #skill-list-h {
       margin: auto;
       margin-bottom: 5%;
       width: 50%; } }
@@ -188,12 +222,6 @@ div.carousel-div, #info-1, #info-2, #info-3 {
         width: 50%;
         float: left;
         text-align: center; } }
-
-#make-div {
-  padding-left: 10%;
-  padding-top: 7%;
-  padding-right: 7%;
-  padding-bottom: 9%; }
 
 .row.is-flex {
   display: flex;
@@ -301,5 +329,8 @@ div.carousel-div, #info-1, #info-2, #info-3 {
     #support-p {
       margin-bottom: 12%;
       font-size: 4vw; } }
+  @media screen and (max-width: 575px) {
+    #support-p {
+      font-size: 5vw; } }
 
 /*# sourceMappingURL=index.css.map */
