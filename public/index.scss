@@ -43,6 +43,13 @@ html {
 	margin-left: -30%;
 }
 
+.carousel-logo {
+	position: absolute;
+	right: 13%;
+	bottom: 15%;
+	width: 20%;
+}
+
 // To extend
 div.carousel-div {
 	position: absolute;
@@ -216,7 +223,7 @@ div.carousel-div {
 	padding-left: 10%;
 	padding-top: 7%;
 	padding-right: 7%;
-	padding-bottom: 5%;
+	padding-bottom: 9%;
 }
 
 // Same-height columns
@@ -267,6 +274,10 @@ div.carousel-div {
 	margin-bottom: 3%;
 	width: 70%;
 	text-align: center;
+
+	@media screen and (max-width: 767px) {
+		margin-top: 14%;
+	}
 }
 
 .rounded-img {
@@ -283,6 +294,22 @@ div.carousel-div {
 	margin-bottom: 5%;
 	width: 50%;
 	text-align: center;
+}
+
+.oomph.nice {
+	font-size: 2vw;
+
+	@media screen and (max-width: 1199px) {
+		font-size: 3vw;
+	}
+
+	@media screen and (max-width: 767px) {
+		font-size: 4vw;
+	}
+
+	@media screen and (max-width: 575px) {
+		font-size: 6.5vw;
+	}
 }
 
 .personal-p {
@@ -314,8 +341,18 @@ div.carousel-div {
 
 #support-h {
 	margin-bottom: 3%;
+
+	@media screen and (max-width: 767px) {
+		margin-bottom: 5%;
+	}
 }
 
 #support-p {
-	margin-bottom: 5%;
+	font-size: 3vw;
+	margin-bottom: 8%;
+
+	@media screen and (max-width: 767px) {
+		margin-bottom: 12%;
+		font-size: 4vw;
+	}
 }
