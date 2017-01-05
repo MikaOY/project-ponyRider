@@ -1,14 +1,14 @@
 /* Scss Document */
 @import 'css/globals';
-
+/*
 // Hides scroll bar
 html {
     overflow: scroll;
     overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+    width: 0px;  //remove scrollbar space 
+    background: transparent;  // optional: just make scrollbar invisible
 }
 /* optional: show position indicator in blue
 ::-webkit-scrollbar-thumb {
@@ -90,6 +90,7 @@ html {
 
 #mobile-carousel {
 	display: none;
+	padding-top: 60px;
 }
 
 .carousel-logo {

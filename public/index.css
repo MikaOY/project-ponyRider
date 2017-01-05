@@ -25,16 +25,16 @@ ul.side-list {
 a.no-line:hover {
   text-decoration: none; }
 
+/*
+// Hides scroll bar
 html {
-  overflow: scroll;
-  overflow-x: hidden; }
-
+    overflow: scroll;
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar {
-  width: 0px;
-  /* remove scrollbar space */
-  background: transparent;
-  /* optional: just make scrollbar invisible */ }
-
+    width: 0px;  //remove scrollbar space 
+    background: transparent;  // optional: just make scrollbar invisible
+}
 /* optional: show position indicator in blue
 ::-webkit-scrollbar-thumb {
     background: blue;
@@ -89,7 +89,8 @@ html {
   padding-top: 60px; }
 
 #mobile-carousel {
-  display: none; }
+  display: none;
+  padding-top: 60px; }
 
 .carousel-logo {
   position: absolute;
