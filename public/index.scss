@@ -16,6 +16,15 @@ html {
 }
 */
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 // MOBILE config
 @media screen and (max-width: 767px) {
 	@mixin fix-margin-top($margin) {
@@ -102,7 +111,7 @@ html {
 
 .carousel-indicators {
 	position: absolute;
-	bottom: -2%;
+	bottom: -2% !important;
 }
 
 .carousel-control {
