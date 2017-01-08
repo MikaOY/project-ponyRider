@@ -3,121 +3,153 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:400,700|Patua+One');
 @import 'globals';
 
-// Mixins
-
-@mixin full-width () {
-    width: 100%;
-}
-
-// Rules
-
 footer {
     background-color: $primary;
 }
 
-#footer-div {
-    margin: auto;
-    width: 50%;
+// Logo and links 
+
+#logo-div {
+    margin-bottom: 2%;
 }
 
 #logo-nav {
-    float: none;
-    display: block;
     margin: auto;
+    margin-left: 10%;
+    margin-top: 7%;
     width: fit-content;
-}
 
-ul.white-text {
-    list-style-type: none;
-    color: $contrast;
+    #footer-logo {
+        float: left;
+        margin: auto;
+        margin-right: 5%;
+        width: 40%;
 
-    li {
-        a {
-            color: $contrast;
+        @media screen and (max-width: 1100px) {
+            width: 47%;
+        }
+
+        @media screen and (max-width: 767px) {
+            width: 35%;
+        }
+        @media screen and (max-width: 600px) {
+            width: 41%;
+        }
+    }
+
+    #footer-nav {
+        margin: auto;
+        padding-left: 28%;
+        width: fit-content;
+        list-style-type: none;
+        font-family: $nice-font;
+
+        @media screen and (max-width: 1100px) {
+            padding-left: 40%;
+        }
+
+        li {
+            padding: 2%;
+
+            a {
+                font-size: 3vw;
+                color: $contrast;
+
+                @media screen and (max-width: 1100px) {
+                    font-size: 3.8vw;
+                }
+                @media screen and (max-width: 767px) {
+                    font-size: 5vw;
+                }
+                @media screen and (max-width: 600px) {
+                    font-size: 6.5vw;
+                }
+            }
         }
     }
 }
 
-#footer-logo {
-    display: block;
-    float: left;
-    width: 35%;
-    min-width: 220px;
-    max-width: 275px;
-    padding: 20px 15px;    
-}
-
-#footer-nav {
-    float: left;
-    margin: auto;
-    width: fit-content;
-    padding-left: 5%;
-
-    #footer-links {
-        float: left;
-        padding: 30px 0 20px 30px;
-        font-family: $nice-font;
-
-        li {
-            display: block;
-        }  
-    }
-}
+// Socials
 
 #socials-div {
-    margin: auto;
-    width: 50%;
-    padding: 0;
+    margin-bottom: 4%;
 }
 
 #social-info {
     margin: auto;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 100%;
+}
+
+#patreon-div {
     width: fit-content;
-    padding-bottom: 8%;
+    margin: auto;
+    margin-top: 10%;
+
+    @media screen and (max-width: 767px) {
+        margin-top: 15%;
+        width: 190px;
+    }
+}
+
+#patreon-logo {
+    width: 130px;
+    margin: auto;
+
+    @media screen and (max-width: 767px) {
+        width: 120px;
+        margin-top: -3%;
+        margin-left: 15%;
+    }
+
+    @media screen and (max-width: 300px) {
+        width: 100px;
+    }
 }
 
 #social-icons {
-    margin: auto;
-    width: 100%;
-    padding: 0;
-}
-
-#socials-list {
-    display: inline-block;
-    margin-top: 15%;
-    padding: 0;
-    
-    li {
-        a {
-            text-align: center;
-        }
-    }
-}
-
-span.icon {
-    color: $contrast;
-    margin-right: 5%;
-}
-
-#social-text {
-    margin: auto;
     margin-top: 5%;
-    width: 100%;
-    text-align: center;
-    color: $contrast;
+
+    @media screen and (max-width: 576px) {
+        margin-left: -40%;
+    }
 }
 
-// Breakpoint for stacking divs
-@media screen and (max-width: 758px) {
-    #footer-div {
-        @include full-width();
-    }
+#left {
+    width: 100%;
+    position: relative;
+    margin-right: -20%;
 
-    #footer-links {
-        margin: 0 -10px;
+    @media screen and (max-width: 575px) {
+        margin-right: 0;
     }
+}
 
-    #socials-div {
-        @include full-width();
+#right {
+    width: 100%;
+    position: relative;
+
+    @media screen and (max-width: 575px) {
+        margin-left: 0;
+    }
+}
+
+ul.side-list {
+    width: fit-content;
+    margin: auto;
+
+    a {
+        display: inline-block;
+    }
+}
+
+.icon {
+    color: $contrast;
+    padding-right: 30% !important;
+    text-align: center;
+
+    @media screen and (max-width: 767px) {
+        padding-right: 0% !important;
     }
 }

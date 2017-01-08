@@ -1,5 +1,8 @@
 /* CSS Document */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.white-text {
+  color: white; }
+
 .nice {
   font-family: "Patua One"; }
 
@@ -14,12 +17,27 @@
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
 
-ul.side-list {
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.side-list {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-  ul.side-list li {
-    display: inline; }
+  .side-list li {
+    display: inline-block; }
 
 a.no-line:hover {
   text-decoration: none; }

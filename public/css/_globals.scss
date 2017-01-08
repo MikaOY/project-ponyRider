@@ -20,6 +20,9 @@ $lg: 992px;
 $xl: 1200px;
 
 // Useful selectors
+.white-text {
+    color: $contrast;
+}
 
 .nice {
     font-family: $nice-font;
@@ -38,13 +41,29 @@ $xl: 1200px;
 	box-shadow: 0 0 16px $easy-read;
 }
 
-ul.side-list {
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
+.green {
+    background: green;
+}
+.yellow {
+    background: yellow;
+}
+.purple {
+    background: purple;
+}
+
+.side-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
 
     li {
-        display: inline;
+        display: inline-block;
     }
 }
 

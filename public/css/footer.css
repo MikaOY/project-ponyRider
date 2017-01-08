@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin|Montserrat:400,700|Patua+One");
 /* CSS Document */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.white-text {
+  color: white; }
+
 .nice {
   font-family: "Patua One"; }
 
@@ -16,12 +19,27 @@
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
 
-ul.side-list {
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.side-list {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-  ul.side-list li {
-    display: inline; }
+  .side-list li {
+    display: inline-block; }
 
 a.no-line:hover {
   text-decoration: none; }
@@ -29,83 +47,115 @@ a.no-line:hover {
 footer {
   background-color: #f48657; }
 
-#footer-div {
-  margin: auto;
-  width: 50%; }
+#logo-div {
+  margin-bottom: 2%; }
 
 #logo-nav {
-  float: none;
-  display: block;
   margin: auto;
+  margin-left: 10%;
+  margin-top: 7%;
   width: fit-content; }
-
-ul.white-text {
-  list-style-type: none;
-  color: white; }
-  ul.white-text li a {
-    color: white; }
-
-#footer-logo {
-  display: block;
-  float: left;
-  width: 35%;
-  min-width: 220px;
-  max-width: 275px;
-  padding: 20px 15px; }
-
-#footer-nav {
-  float: left;
-  margin: auto;
-  width: fit-content;
-  padding-left: 5%; }
-  #footer-nav #footer-links {
+  #logo-nav #footer-logo {
     float: left;
-    padding: 30px 0 20px 30px;
+    margin: auto;
+    margin-right: 5%;
+    width: 40%; }
+    @media screen and (max-width: 1100px) {
+      #logo-nav #footer-logo {
+        width: 47%; } }
+    @media screen and (max-width: 767px) {
+      #logo-nav #footer-logo {
+        width: 35%; } }
+    @media screen and (max-width: 600px) {
+      #logo-nav #footer-logo {
+        width: 41%; } }
+  #logo-nav #footer-nav {
+    margin: auto;
+    padding-left: 28%;
+    width: fit-content;
+    list-style-type: none;
     font-family: "Patua One"; }
-    #footer-nav #footer-links li {
-      display: block; }
+    @media screen and (max-width: 1100px) {
+      #logo-nav #footer-nav {
+        padding-left: 40%; } }
+    #logo-nav #footer-nav li {
+      padding: 2%; }
+      #logo-nav #footer-nav li a {
+        font-size: 3vw;
+        color: white; }
+        @media screen and (max-width: 1100px) {
+          #logo-nav #footer-nav li a {
+            font-size: 3.8vw; } }
+        @media screen and (max-width: 767px) {
+          #logo-nav #footer-nav li a {
+            font-size: 5vw; } }
+        @media screen and (max-width: 600px) {
+          #logo-nav #footer-nav li a {
+            font-size: 6.5vw; } }
 
 #socials-div {
-  margin: auto;
-  width: 50%;
-  padding: 0; }
+  margin-bottom: 4%; }
 
 #social-info {
   margin: auto;
+  margin-left: 5%;
+  margin-top: 8%;
+  width: 100%; }
+
+#patreon-div {
   width: fit-content;
-  padding-bottom: 8%; }
+  margin: auto;
+  margin-top: 10%; }
+  @media screen and (max-width: 767px) {
+    #patreon-div {
+      margin-top: 15%;
+      width: 190px; } }
+
+#patreon-logo {
+  width: 130px;
+  margin: auto; }
+  @media screen and (max-width: 767px) {
+    #patreon-logo {
+      width: 120px;
+      margin-top: -3%;
+      margin-left: 15%; } }
+  @media screen and (max-width: 300px) {
+    #patreon-logo {
+      width: 100px; } }
 
 #social-icons {
-  margin: auto;
+  margin-top: 5%; }
+  @media screen and (max-width: 576px) {
+    #social-icons {
+      margin-left: -40%; } }
+
+#left {
   width: 100%;
-  padding: 0; }
+  position: relative;
+  margin-right: -20%; }
+  @media screen and (max-width: 575px) {
+    #left {
+      margin-right: 0; } }
 
-#socials-list {
-  display: inline-block;
-  margin-top: 15%;
-  padding: 0; }
-  #socials-list li a {
-    text-align: center; }
+#right {
+  width: 100%;
+  position: relative; }
+  @media screen and (max-width: 575px) {
+    #right {
+      margin-left: 0; } }
 
-span.icon {
+ul.side-list {
+  width: fit-content;
+  margin: auto; }
+  ul.side-list a {
+    display: inline-block; }
+
+.icon {
   color: white;
-  margin-right: 5%; }
-
-#social-text {
-  margin: auto;
-  margin-top: 5%;
-  width: 100%;
-  text-align: center;
-  color: white; }
-
-@media screen and (max-width: 758px) {
-  #footer-div {
-    width: 100%; }
-
-  #footer-links {
-    margin: 0 -10px; }
-
-  #socials-div {
-    width: 100%; } }
+  padding-right: 30% !important;
+  text-align: center; }
+  @media screen and (max-width: 767px) {
+    .icon {
+      padding-right: 0% !important; } }
 
 /*# sourceMappingURL=footer.css.map */
