@@ -347,6 +347,9 @@ div.carousel-div, .info-1, .info-2, .info-3 {
   .personal-socials a {
     padding-right: 5%; }
 
+ul.side-list a {
+  padding: 5%; }
+
 #support-div {
   padding: 7%; }
 
