@@ -183,6 +183,10 @@ div.carousel-div, .info-1, .info-2, .info-3 {
     .alert {
       font-size: 12.5px; } }
 
+#projects {
+  padding-top: 58px;
+  margin-top: -58px; }
+
 #make-div {
   padding-left: 10%;
   padding-top: 7%;
@@ -230,6 +234,10 @@ div.carousel-div, .info-1, .info-2, .info-3 {
         width: 50%;
         float: left;
         text-align: center; } }
+
+#about {
+  padding-top: 25px;
+  margin-top: -25px; }
 
 .row.is-flex {
   display: flex;

@@ -221,6 +221,11 @@ div.carousel-div {
 
 // Projects
 
+#projects {
+  padding-top: 58px; 
+  margin-top: -58px;
+}
+
 #make-div {
 	padding-left: 10%;
 	padding-top: 7%;
@@ -275,6 +280,13 @@ div.carousel-div {
 			text-align: center;
 		}
 	}
+}
+
+// About
+
+#about {
+	padding-top: 25px; 
+	margin-top: -25px;
 }
 
 // Same-height columns
