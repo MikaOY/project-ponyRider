@@ -10,13 +10,18 @@
 .oomph {
   font-weight: bold; }
 
+.black-text {
+  color: black; }
+
+.primary-col {
+  color: #ff7518; }
+
 .easy-read {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-shadow: none;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
 
 .red {
   background: red; }
@@ -138,12 +143,12 @@ div.carousel-div, .info-1, .info-2, .info-3 {
   z-index: 20;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   text-align: left;
-  color: #f48657; }
+  color: #ff7518; }
 
 .carousel-cap, .info-1 .cap-1, .info-2 .cap-2, .info-3 .cap-3 {
   position: relative;
   float: left;
-  color: #f48657;
+  color: #ff7518;
   font-size: 6.5vw; }
 
 .carousel-p, .info-1 .p-1, .info-2 .p-2, .info-3 .p-3 {

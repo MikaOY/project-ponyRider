@@ -9,13 +9,18 @@
 .oomph {
   font-weight: bold; }
 
+.black-text {
+  color: black; }
+
+.primary-col {
+  color: #ff7518; }
+
 .easy-read {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-shadow: none;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
 
 .red {
   background: red; }

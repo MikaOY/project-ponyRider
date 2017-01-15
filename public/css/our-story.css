@@ -1,0 +1,131 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.white-text {
+  color: white; }
+
+.nice {
+  font-family: "Patua One"; }
+
+.oomph {
+  font-weight: bold; }
+
+.black-text {
+  color: black; }
+
+.primary-col {
+  color: #ff7518; }
+
+.easy-read {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.side-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .side-list li {
+    display: inline-block; }
+
+a.no-line:hover {
+  text-decoration: none; }
+
+.info-text, .center-info, #projects-text {
+  font-size: 2.3em; }
+  @media screen and (max-width: 490px) {
+    .info-text, .center-info, #projects-text {
+      font-size: 8vw; } }
+
+#top-jumbo {
+  margin-bottom: 9%; }
+  @media screen and (max-width: 660px) {
+    #top-jumbo {
+      margin-bottom: 12%; } }
+
+#top-h {
+  float: left;
+  margin-top: 11%;
+  margin-left: 10%;
+  font-size: 6.5vw; }
+  @media screen and (max-width: 960px) {
+    #top-h {
+      margin-top: 13%; } }
+  @media screen and (max-width: 860px) {
+    #top-h {
+      margin-top: 15%; } }
+  @media screen and (max-width: 660px) {
+    #top-h {
+      margin-top: 16%;
+      font-size: 7.3vw; } }
+  @media screen and (max-width: 490px) {
+    #top-h {
+      margin-top: 18.5%;
+      font-size: 8vw; } }
+  @media screen and (max-width: 390px) {
+    #top-h {
+      margin-top: 22%; } }
+
+#top-logo {
+  float: right;
+  width: 30%;
+  margin-top: 7%;
+  margin-right: 7%; }
+  @media screen and (max-width: 960px) {
+    #top-logo {
+      margin-top: 9%; } }
+  @media screen and (max-width: 860px) {
+    #top-logo {
+      margin-top: 11%; } }
+  @media screen and (max-width: 660px) {
+    #top-logo {
+      margin-top: 14%; } }
+  @media screen and (max-width: 490px) {
+    #top-logo {
+      margin-top: 17%; } }
+  @media screen and (max-width: 390px) {
+    #top-logo {
+      margin-top: 21%; } }
+
+.center-info {
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 11%; }
+
+#idea-info {
+  margin-left: 9%;
+  margin-right: 5%; }
+  @media screen and (max-width: 960px) {
+    #idea-info {
+      margin-left: 10%;
+      margin-right: 10%; } }
+
+.img-strip {
+  width: 100%;
+  margin: 4% 0;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+
+#projects-text {
+  width: 70%;
+  margin-top: 7%;
+  text-align: right; }
+
+/*# sourceMappingURL=our-story.css.map */

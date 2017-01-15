@@ -6,8 +6,12 @@
     "public": "public",
     "rewrites": [
       {
-        "source": "/about",
-        "destination": "/html/about.html"
+        "source": "/story",
+        "destination": "/html/our-story.html"
+      },
+      {
+        "source": "/mika",
+        "destination": "/html/mika.html"
       }
     ]
   }
