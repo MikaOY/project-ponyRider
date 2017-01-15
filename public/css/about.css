@@ -1,3 +1,141 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.white-text {
+  color: white; }
 
+.nice {
+  font-family: "Patua One"; }
+
+.oomph {
+  font-weight: bold; }
+
+.easy-read {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-shadow: none;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.side-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .side-list li {
+    display: inline-block; }
+
+a.no-line:hover {
+  text-decoration: none; }
+
+p, .border-p {
+  margin-left: 4%;
+  margin-right: 6% !important;
+  font-size: 1.8vw; }
+  @media screen and (max-width: 1125px) {
+    p, .border-p {
+      font-size: 2.1vw; } }
+  @media screen and (max-width: 991px) {
+    p, .border-p {
+      font-size: 2.7vw; } }
+  @media screen and (max-width: 767px) {
+    p, .border-p {
+      margin-left: 8% !important;
+      margin-right: 8%; } }
+
+.border-p {
+  margin-left: 9% !important; }
+
+#top-jumbo {
+  margin-top: 40px; }
+  #top-jumbo h1 {
+    margin-left: 10%;
+    margin-bottom: 1%; }
+  #top-jumbo p, #top-jumbo .border-p {
+    margin-left: 10%;
+    margin-bottom: -1%; }
+
+.person-img-col {
+  overflow: hidden; }
+
+.person-pic {
+  display: block;
+  float: left;
+  height: 500px;
+  margin-left: -20%; }
+  @media screen and (max-width: 991px) {
+    .person-pic {
+      margin-left: -45%; } }
+  @media screen and (max-width: 800px) {
+    .person-pic {
+      margin-left: -59%; } }
+  @media screen and (max-width: 767px) {
+    .person-pic {
+      margin-left: -8%; } }
+  @media screen and (max-width: 670px) {
+    .person-pic {
+      margin-left: -20%; } }
+  @media screen and (max-width: 530px) {
+    .person-pic {
+      margin-left: -37%; } }
+  @media screen and (max-width: 450px) {
+    .person-pic {
+      margin-left: -47%; } }
+  @media screen and (max-width: 400px) {
+    .person-pic {
+      margin-left: -60%; } }
+  @media screen and (max-width: 400px) {
+    .person-pic {
+      margin-left: -60%; } }
+
+.person-info-col h2 {
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 4%; }
+  @media screen and (max-width: 767px) {
+    .person-info-col h2 {
+      margin-left: 8% !important; } }
+.person-info-col p, .person-info-col .border-p {
+  margin-left: 4%; }
+.person-info-col #top-p {
+  margin-top: 10%;
+  margin-bottom: 0; }
+.person-info-col #bottom-p {
+  margin-bottom: 9%; }
+.person-info-col h3 {
+  margin-left: 16%;
+  margin-bottom: 5.5%;
+  margin-right: 8%;
+  margin-top: 5.5%; }
+
+#table-row {
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+#table-info {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+#table-div {
+  margin-left: 7%;
+  margin-right: 7%; }
+
+#legend-table-div {
+  width: 40%;
+  margin-left: 10%; }
 
 /*# sourceMappingURL=about.css.map */
