@@ -47,10 +47,11 @@
 a.no-line:hover {
   text-decoration: none; }
 
-.info-text, .center-info, #projects-text {
-  font-size: 2.3em; }
-  @media screen and (max-width: 490px) {
-    .info-text, .center-info, #projects-text {
+.info-text, .right-info, .small-note {
+  font-size: 6vw;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 650px) {
+    .info-text, .right-info, .small-note {
       font-size: 8vw; } }
 
 #top-jumbo {
@@ -103,18 +104,19 @@ a.no-line:hover {
     #top-logo {
       margin-top: 21%; } }
 
-.center-info {
-  width: fit-content;
+.left-info {
+  width: 50%;
   margin: auto;
-  margin-bottom: 11%; }
-
-#idea-info {
-  margin-left: 9%;
-  margin-right: 5%; }
-  @media screen and (max-width: 960px) {
-    #idea-info {
-      margin-left: 10%;
-      margin-right: 10%; } }
+  margin-top: 2%;
+  margin-bottom: 7%;
+  font-size: 4.5vw;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 991px) {
+    .left-info {
+      margin-left: 15%;
+      margin-right: 5%;
+      width: 70%;
+      font-size: 5.5vw; } }
 
 .img-strip {
   width: 100%;
@@ -123,9 +125,55 @@ a.no-line:hover {
   -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
 
-#projects-text {
+.right-info {
   width: 70%;
-  margin-top: 7%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 11%;
   text-align: right; }
+
+#goals-img {
+  display: block;
+  width: 100%;
+  margin: auto; }
+
+#goals-text {
+  margin-top: 3%;
+  margin-left: 5%;
+  font-size: 4vw;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 991px) {
+    #goals-text {
+      margin-top: 6%;
+      margin-left: 30%;
+      margin-bottom: 6%;
+      width: 70%;
+      font-size: 5.5vw; } }
+  @media screen and (max-width: 650px) {
+    #goals-text {
+      margin-left: 25%;
+      font-size: 6.5vw; } }
+
+#projects-row {
+  margin-top: 10%; }
+
+.small-note {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 9%;
+  font-size: 2.7vw;
+  text-align: center; }
+
+#projects-huge {
+  width: 100%;
+  font-size: 19vw;
+  text-align: center; }
+
+#projects-text {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  font-size: 4.3vw;
+  text-align: center; }
 
 /*# sourceMappingURL=our-story.css.map */
