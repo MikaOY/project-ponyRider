@@ -66,7 +66,8 @@ p, .border-p {
   margin-left: 9% !important; }
 
 #top-jumbo {
-  margin-top: 40px; }
+  margin-top: 40px;
+  margin-bottom: 5%; }
   #top-jumbo h1 {
     margin-left: 10%;
     margin-bottom: 1%; }
