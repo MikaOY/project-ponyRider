@@ -289,6 +289,25 @@ div.carousel-div {
 	margin-top: -25px;
 }
 
+#about-h {
+	margin: auto;
+	margin-top: 5%;
+	width: 70%;
+	text-align: center;
+
+	@media screen and (max-width: 767px) {
+		margin-top: 14%;
+		margin-bottom: 3%;
+	}
+}
+
+#story-h {
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
 // Same-height columns
 .row.is-flex {
     display: flex;
@@ -329,18 +348,6 @@ div.carousel-div {
 
 .about-col {
 	margin-bottom: 5%;
-}
-
-#about-h {
-	margin: auto;
-	margin-top: 5%;
-	margin-bottom: 3%;
-	width: 70%;
-	text-align: center;
-
-	@media screen and (max-width: 767px) {
-		margin-top: 14%;
-	}
 }
 
 .rounded-img {
