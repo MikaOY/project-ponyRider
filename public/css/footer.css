@@ -108,6 +108,8 @@ footer {
       margin-left: 10%; } }
   @media screen and (max-width: 500px) {
     #socials-div {
-      margin-left: 4%; } }
+      margin-left: 3%;
+      margin-top: 7%;
+      margin-bottom: 10%; } }
 
 /*# sourceMappingURL=footer.css.map */
