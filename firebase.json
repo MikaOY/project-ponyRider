@@ -7,11 +7,11 @@
     "rewrites": [
       {
         "source": "/story",
-        "destination": "/html/our-story.html"
+        "destination": "/our-story.html"
       },
       {
         "source": "/mika",
-        "destination": "/html/mika.html"
+        "destination": "/mika.html"
       }
     ]
   }
