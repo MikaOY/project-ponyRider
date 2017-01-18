@@ -19,3 +19,23 @@
         font-size: 9vw;
     }
 }
+
+#patreon {
+    width: 4vw;
+
+    @media screen and (max-width: 991px) {
+        width: 5vw;
+    }
+    @media screen and (max-width: 767px) {
+        width: 6vw;
+    }
+    @media screen and (max-width: 575px) {
+        width: 7vw;
+    }
+    @media screen and (max-width: 393px) {
+        width: 8vw;
+    }
+    @media screen and (max-width: 300px) {
+        width: 9vw;
+    }
+}

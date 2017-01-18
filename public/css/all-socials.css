@@ -65,4 +65,22 @@ a.no-line:hover {
     .fa {
       font-size: 9vw; } }
 
+#patreon {
+  width: 4vw; }
+  @media screen and (max-width: 991px) {
+    #patreon {
+      width: 5vw; } }
+  @media screen and (max-width: 767px) {
+    #patreon {
+      width: 6vw; } }
+  @media screen and (max-width: 575px) {
+    #patreon {
+      width: 7vw; } }
+  @media screen and (max-width: 393px) {
+    #patreon {
+      width: 8vw; } }
+  @media screen and (max-width: 300px) {
+    #patreon {
+      width: 9vw; } }
+
 /*# sourceMappingURL=all-socials.css.map */
