@@ -48,7 +48,8 @@ a.no-line:hover {
   text-decoration: none; }
 
 .fa {
-  font-size: 4vw; }
+  font-size: 4vw;
+  color: black; }
   @media screen and (max-width: 991px) {
     .fa {
       font-size: 5vw; } }
