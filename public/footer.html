@@ -12,49 +12,28 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Firebase Testing Server 
-	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-	<script>
-	// Initialize Firebase
-	var config = {
-		apiKey: "AIzaSyBWFJygLi-GFC0_mDp5o8ORJLR7t2gwBuw",
-		authDomain: "ramen-testing.firebaseapp.com",
-		databaseURL: "https://ramen-testing.firebaseio.com",
-		storageBucket: "ramen-testing.appspot.com",
-		messagingSenderId: "495537126258"
-	};
-	firebase.initializeApp(config);
-	</script>
-    -->
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <!-- Actual Firebase Server -->
-	<script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
-	<script>
-	// Initialize Firebase
-	var config = {
-		apiKey: "AIzaSyBdpPno5QKrz2P58EG0KYG3EJIgabiXwik",
-		authDomain: "ramen-website-ac51f.firebaseapp.com",
-		databaseURL: "https://ramen-website-ac51f.firebaseio.com",
-		storageBucket: "ramen-website-ac51f.appspot.com",
-		messagingSenderId: "1092712543340"
-	};
-	firebase.initializeApp(config);
-	</script>
-   
-   <!-- Font Awesome -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="../js/bootstrap.min.js"></script>
-  <!-- Custom theme -->
-  <link rel="stylesheet" href="../css/theme.min.css">
+    <!-- Custom theme -->
+    <link rel="stylesheet" href="../css/theme.min.css">
 
-  <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Socials load -->
+    <script>
+        $(function(){
+	        $("#all-socials").load("all-socials.html"); 
+	    });
+    </script>
 </head>
 
 <body>
@@ -72,43 +51,7 @@
                 </div>
             </div>
             <div id="socials-div" class="col-sm-6 col-xs-12">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-12 col-md-12 col-lg-12">
-                        <div id="patreon-div">
-                            <a href="#" target="_blank">
-                                <img id="patreon-logo" src="../resources/patreon-black.png" alt="patreon logo">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-12 col-md-12 col-lg-12">
-                        <div id="social-icons">
-                            <div class="col-md-6 col-sm-12">
-                                <div id="left">
-                                    <ul class="side-list">
-                                        <a class="btn btn-lg" href="https://www.facebook.com/makersoframen/">
-                                            <span class="fa fa-2x fa-facebook icon"></span>
-                                        </a>
-                                        <a class="btn btn-lg" href="https://twitter.com/mikayeap">
-                                            <span class="fa fa-2x fa-twitter icon"></span>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div id="right">
-                                    <ul class="side-list">
-                                        <a class="btn btn-lg" href="https://www.youtube.com/channel/UCHduRhsEgcaqtBRDxUZc1nQ">
-                                            <span class="fa fa-2x fa-youtube icon"></span>
-                                        </a>
-                                        <a class="btn btn-lg" href="mailto:info@makersoframen.com">
-                                            <span class="fa fa-2x fa-envelope icon"></span>
-                                        </a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div id="all-socials"></div>
             </div>
         </div>
 	</footer>

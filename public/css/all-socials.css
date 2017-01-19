@@ -1,0 +1,87 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.white-text {
+  color: white; }
+
+.nice {
+  font-family: "Patua One"; }
+
+.oomph {
+  font-weight: bold; }
+
+.black-text {
+  color: black; }
+
+.primary-col {
+  color: #ff7518; }
+
+.easy-read {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.side-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .side-list li {
+    display: inline-block; }
+
+a.no-line:hover {
+  text-decoration: none; }
+
+.all-socials-icon {
+  font-size: 4vw;
+  color: black; }
+  @media screen and (max-width: 991px) {
+    .all-socials-icon {
+      font-size: 5vw; } }
+  @media screen and (max-width: 767px) {
+    .all-socials-icon {
+      font-size: 6vw; } }
+  @media screen and (max-width: 575px) {
+    .all-socials-icon {
+      font-size: 7vw; } }
+  @media screen and (max-width: 393px) {
+    .all-socials-icon {
+      font-size: 8vw; } }
+  @media screen and (max-width: 300px) {
+    .all-socials-icon {
+      font-size: 9vw; } }
+
+#patreon {
+  width: 4vw; }
+  @media screen and (max-width: 991px) {
+    #patreon {
+      width: 5vw; } }
+  @media screen and (max-width: 767px) {
+    #patreon {
+      width: 6vw; } }
+  @media screen and (max-width: 575px) {
+    #patreon {
+      width: 7vw; } }
+  @media screen and (max-width: 393px) {
+    #patreon {
+      width: 8vw; } }
+  @media screen and (max-width: 300px) {
+    #patreon {
+      width: 9vw; } }
+
+/*# sourceMappingURL=all-socials.css.map */
