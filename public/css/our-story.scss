@@ -1,14 +1,5 @@
 @import 'globals';
 
-.info-text {
-    font-size: 6vw;
-    font-family: $plain-font;
-
-    @media screen and (max-width: 650px) {
-		font-size: 8vw;
-	}
-}
-
 #top-jumbo {
     margin-bottom: 9%;
 
@@ -63,39 +54,6 @@
     @media screen and (max-width: 390px) {
 		margin-top: 21%;
 	}
-}
-
-.left-info {
-    width: 50%;
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 7%;
-    font-size: 4.5vw;
-    font-family: $plain-font;
-
-    @media screen and (max-width: 991px) {
-		margin-left: 15%;
-        margin-right: 5%;
-        width: 70%;
-        font-size: 5.5vw;
-	}
-}
-
-.img-strip {
-    width: 100%;
-    margin: 4% 0;
-    -moz-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
-    box-shadow: 2px 3px 3px rgba(0,0,0,.5);
-}
-
-.right-info {
-    width: 70%;
-    margin: auto;
-    margin-top: 6%;
-    margin-bottom: 11%;
-    @extend .info-text;
-    text-align: right;
 }
 
 #goals-img {

@@ -37,26 +37,22 @@ $xl: 1200px;
 }
 
 // Useful selectors
+// Text effects
 .white-text {
     color: $contrast;
 }
-
-.nice {
-    font-family: $nice-font;
-}
-
-.oomph {
-    font-weight: bold;
-}
-
 .black-text {
     color: black;
 }
-
 .primary-col {
     color: $primary;
 }
-
+.nice {
+    font-family: $nice-font;
+}
+.oomph {
+    font-weight: bold;
+}
 .easy-read {
 	background-color: $easy-read !important;
 	text-shadow: none !important;
@@ -64,7 +60,48 @@ $xl: 1200px;
 	-webkit-box-shadow: 0 0 16px $easy-read !important;
 	box-shadow: 0 0 16px $easy-read !important;
 }
+.info-text {
+    font-size: 6vw;
+    font-family: $plain-font;
 
+    @media screen and (max-width: 650px) {
+		font-size: 8vw;
+	}
+}
+
+// General div styling
+.left-info {
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-size: 4.5vw;
+    font-family: $plain-font;
+
+    @media screen and (max-width: 991px) {
+		margin-left: 15%;
+        margin-right: 5%;
+        width: 70%;
+        font-size: 5.5vw;
+	}
+}
+.right-info {
+    width: 70%;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 11%;
+    @extend .info-text;
+    text-align: right;
+}
+
+// Miscellaneous
+.img-strip {
+    width: 100%;
+    margin: 4% 0;
+    -moz-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+    box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+}
 .side-list {
     margin: 0;
     padding: 0;
@@ -74,7 +111,6 @@ $xl: 1200px;
         display: inline-block;
     }
 }
-
 a.no-line:hover {
     text-decoration: none;
 }

@@ -18,17 +18,17 @@
 .white-text {
   color: white; }
 
-.nice {
-  font-family: "Patua One"; }
-
-.oomph {
-  font-weight: bold; }
-
 .black-text {
   color: black; }
 
 .primary-col {
   color: #ff7518; }
+
+.nice {
+  font-family: "Patua One"; }
+
+.oomph {
+  font-weight: bold; }
 
 .easy-read {
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -36,6 +36,41 @@
   -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
+
+.info-text, .right-info, .small-note {
+  font-size: 6vw;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 650px) {
+    .info-text, .right-info, .small-note {
+      font-size: 8vw; } }
+
+.left-info {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  font-size: 4.5vw;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 991px) {
+    .left-info {
+      margin-left: 15%;
+      margin-right: 5%;
+      width: 70%;
+      font-size: 5.5vw; } }
+
+.right-info {
+  width: 70%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 11%;
+  text-align: right; }
+
+.img-strip {
+  width: 100%;
+  margin: 4% 0;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
 
 .side-list {
   margin: 0;
@@ -46,13 +81,6 @@
 
 a.no-line:hover {
   text-decoration: none; }
-
-.info-text, .right-info, .small-note {
-  font-size: 6vw;
-  font-family: "Montserrat"; }
-  @media screen and (max-width: 650px) {
-    .info-text, .right-info, .small-note {
-      font-size: 8vw; } }
 
 #top-jumbo {
   margin-bottom: 9%; }
@@ -103,34 +131,6 @@ a.no-line:hover {
   @media screen and (max-width: 390px) {
     #top-logo {
       margin-top: 21%; } }
-
-.left-info {
-  width: 50%;
-  margin: auto;
-  margin-top: 2%;
-  margin-bottom: 7%;
-  font-size: 4.5vw;
-  font-family: "Montserrat"; }
-  @media screen and (max-width: 991px) {
-    .left-info {
-      margin-left: 15%;
-      margin-right: 5%;
-      width: 70%;
-      font-size: 5.5vw; } }
-
-.img-strip {
-  width: 100%;
-  margin: 4% 0;
-  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
-  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
-
-.right-info {
-  width: 70%;
-  margin: auto;
-  margin-top: 6%;
-  margin-bottom: 11%;
-  text-align: right; }
 
 #goals-img {
   display: block;
