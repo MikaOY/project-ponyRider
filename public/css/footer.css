@@ -49,8 +49,9 @@
 a.no-line:hover {
   text-decoration: none; }
 
-footer {
-  background-color: #ff7518; }
+#real-footer {
+  background-color: #ff7518;
+  padding-bottom: 1%; }
 
 #logo-div {
   margin-bottom: 2%; }
@@ -99,15 +100,15 @@ footer {
             font-size: 6.5vw; } }
 
 #socials-div {
-  margin-top: 4%;
+  margin-top: 5%;
   margin-bottom: 4%; }
   @media screen and (max-width: 767px) {
     #socials-div {
       margin-left: 10%; } }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 575px) {
     #socials-div {
       margin-left: 3%;
       margin-top: 7%;
-      margin-bottom: 10%; } }
+      margin-bottom: 8%; } }
 
 /*# sourceMappingURL=footer.css.map */

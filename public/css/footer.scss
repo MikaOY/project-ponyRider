@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Montserrat:400,700|Patua+One');
 @import 'globals';
 
-footer {
+#real-footer {
     background-color: $primary;
+    padding-bottom: 1%;
 }
 
 // Logo and links 
@@ -72,15 +73,15 @@ footer {
 // Socials
 
 #socials-div {
-    margin-top: 4%;    
+    margin-top: 5%;    
     margin-bottom: 4%;
 
     @media screen and (max-width: 767px) {
         margin-left: 10%;
     }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 575px) {
         margin-left: 3%;
         margin-top: 7%;
-        margin-bottom: 10%;
+        margin-bottom: 8%;
     }
 }
