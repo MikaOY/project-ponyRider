@@ -1,6 +1,21 @@
 /* Scss Document */
 /* CSS Document */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
 .white-text {
   color: white; }
 
@@ -22,21 +37,6 @@
   -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
-
-.red {
-  background: red; }
-
-.blue {
-  background: blue; }
-
-.green {
-  background: green; }
-
-.yellow {
-  background: yellow; }
-
-.purple {
-  background: purple; }
 
 .side-list {
   margin: 0;
@@ -357,9 +357,6 @@ div.carousel-div, .info-1, .info-2, .info-3 {
   text-align: center; }
   .personal-socials a {
     padding-right: 5%; }
-
-ul.side-list a {
-  padding: 5%; }
 
 #support-div {
   padding: 7%; }
