@@ -38,12 +38,22 @@
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
 
-.info-text, .right-info {
+.auto-scale, .right-info {
   font-size: 6vw;
   font-family: "Montserrat"; }
   @media screen and (max-width: 650px) {
-    .info-text, .right-info {
+    .auto-scale, .right-info {
       font-size: 8vw; } }
+
+.layover, .info-1, .info-2, .info-3 {
+  position: absolute;
+  bottom: 0%;
+  top: 0%;
+  width: 50%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: #ff7518; }
 
 .left-info {
   width: 50%;
@@ -169,16 +179,6 @@ html, body {
 
 .carousel-control {
   width: 8%; }
-
-div.carousel-div, .info-1, .info-2, .info-3 {
-  position: absolute;
-  bottom: 0%;
-  top: 0%;
-  width: 50%;
-  z-index: 20;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  text-align: left;
-  color: #ff7518; }
 
 .carousel-cap, .info-1 .cap-1, .info-2 .cap-2, .info-3 .cap-3 {
   position: relative;

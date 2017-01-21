@@ -86,7 +86,7 @@
 }
 
 .small-note {
-    @extend .info-text;
+    @extend .auto-scale;
     width: 100%;
     margin: auto;
     margin-bottom: 9%;

@@ -60,7 +60,7 @@ $xl: 1200px;
 	-webkit-box-shadow: 0 0 16px $easy-read !important;
 	box-shadow: 0 0 16px $easy-read !important;
 }
-.info-text {
+.auto-scale {
     font-size: 6vw;
     font-family: $plain-font;
 
@@ -70,6 +70,16 @@ $xl: 1200px;
 }
 
 // General div styling
+.layover {
+	position: absolute;
+	bottom: 0%;
+	top: 0%;
+	width: 50%;
+	z-index: 20;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	text-align: left;
+	color: $primary;
+}
 .left-info {
     width: 50%;
     margin: auto;
@@ -90,7 +100,7 @@ $xl: 1200px;
     margin: auto;
     margin-top: 6%;
     margin-bottom: 11%;
-    @extend .info-text;
+    @extend .auto-scale;
     text-align: right;
 }
 

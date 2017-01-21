@@ -119,16 +119,6 @@ html,body
 }
 
 // To extend
-div.carousel-div {
-	position: absolute;
-	bottom: 0%;
-	top: 0%;
-	width: 50%;
-	z-index: 20;
-	text-shadow: 0 1px 2px rgba(0,0,0,.6);
-	text-align: left;
-	color: $primary;
-}
 .carousel-cap {
 	position: relative;
 	float: left;
@@ -143,7 +133,7 @@ div.carousel-div {
 }
 
 .info-1 {
-	@extend div.carousel-div;
+	@extend .layover;
 	left: 0%;
 	right: 50%;
 
@@ -165,7 +155,7 @@ div.carousel-div {
 }
 
 .info-2 {
-	@extend div.carousel-div;
+	@extend .layover;
 	left: 50%;
 
 	.cap-2 {
@@ -189,7 +179,7 @@ div.carousel-div {
 }
 
 .info-3 {
-	@extend div.carousel-div;
+	@extend .layover;
 	left: 0%;
 
 	.cap-3 {
