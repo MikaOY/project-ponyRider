@@ -37,22 +37,12 @@
   -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
 
-.auto-scale, .right-info {
+.info-text, .right-info {
   font-size: 6vw;
   font-family: "Montserrat"; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .right-info {
+    .info-text, .right-info {
       font-size: 8vw; } }
-
-.layover {
-  position: absolute;
-  bottom: 0%;
-  top: 0%;
-  width: 50%;
-  z-index: 20;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-  text-align: left;
-  color: #ff7518; }
 
 .left-info {
   width: 50%;
