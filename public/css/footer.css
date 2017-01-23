@@ -122,7 +122,7 @@ a.no-line:hover {
 #real-footer {
   width: 100% !important;
   background-color: #ff7518;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
   margin: 0 !important; }
 
 #logo-div {
@@ -175,11 +175,11 @@ a.no-line:hover {
   margin-bottom: 4%; }
   @media screen and (max-width: 767px) {
     #socials-div {
-      margin-left: 10%; } }
+      margin-left: 10%;
+      margin-top: 9%; } }
   @media screen and (max-width: 575px) {
     #socials-div {
       margin-left: 3%;
-      margin-top: 7%;
       margin-bottom: 8%; } }
 
 /*# sourceMappingURL=footer.css.map */
