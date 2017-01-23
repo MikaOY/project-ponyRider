@@ -1,5 +1,31 @@
 @import 'globals';
 
+.jumbotron {
+    margin-bottom: -2% !important;
+}
+
 #top-img {
     width: 100%;
+}
+
+.layover {
+    width: 100% !important;
+}
+
+#top-h {
+    @include scale-config(9vw,7vw);
+    width: 100%;
+    margin-top: 17%;
+    font-family: $nice-font;
+    text-align: center;
+}
+
+.center-h {
+    @include scale-config(5vw, 4vw);
+    margin-bottom: 3%;
+}
+
+.preview-h {
+    margin-left: 4%;
+    margin-top: 3%;
 }

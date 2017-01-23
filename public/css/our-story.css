@@ -15,6 +15,10 @@
 .purple {
   background: purple; }
 
+.row {
+  padding-right: 0px;
+  margin-right: 0px; }
+
 .white-text {
   color: white; }
 
@@ -30,18 +34,23 @@
 .oomph {
   font-weight: bold; }
 
-.easy-read {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  text-shadow: none !important;
-  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
-  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5) !important; }
+.center-h {
+  width: 100%;
+  text-align: center; }
 
-.auto-scale, .right-info, .small-note {
+.easy-read {
+  background-color: black !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px black !important;
+  -webkit-box-shadow: 0 0 16px black !important;
+  box-shadow: 0 0 16px black !important; }
+
+.auto-scale, .left-info, .right-info, .small-note {
   font-size: 6vw;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .right-info, .small-note {
+    .auto-scale, .left-info, .right-info, .small-note {
       font-size: 8vw; } }
 
 .layover {
@@ -55,12 +64,14 @@
   color: #ff7518; }
 
 .left-info {
-  width: 50%;
+  width: 70%;
   margin: auto;
   margin-top: 2%;
   margin-bottom: 7%;
+  color: black;
   font-size: 4.5vw;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  text-align: left !important; }
   @media screen and (max-width: 991px) {
     .left-info {
       margin-left: 15%;
@@ -73,7 +84,11 @@
   margin: auto;
   margin-top: 6%;
   margin-bottom: 11%;
+  color: black;
   text-align: right; }
+
+.top {
+  padding-top: 60px; }
 
 .img-strip {
   width: 100%;
@@ -81,6 +96,14 @@
   -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+
+.shadowed {
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+
+.full-width {
+  width: 100%; }
 
 .side-list {
   margin: 0;

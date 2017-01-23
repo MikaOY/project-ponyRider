@@ -3,7 +3,49 @@
 [debug] CLI Version:  3.2.1
 [debug] Platform:     darwin
 [debug] Node Version: v6.9.1
-[debug] Time:         Sat Jan 21 2017 09:50:45 GMT+0800 (MYT)
+[debug] Time:         Sat Jan 21 2017 10:57:50 GMT+0800 (MYT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.2.1
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Sat Jan 21 2017 14:33:51 GMT+0800 (MYT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.2.1
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Sun Jan 22 2017 13:15:53 GMT+0800 (MYT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
+[info] Public Directory: public
+[info] 
+[info] Server listening at: http://localhost:5000
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.2.1
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Mon Jan 23 2017 14:37:37 GMT+0800 (MYT)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [info] Starting Firebase development server...
