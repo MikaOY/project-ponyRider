@@ -45,12 +45,12 @@
   -webkit-box-shadow: 0 0 16px black !important;
   box-shadow: 0 0 16px black !important; }
 
-.auto-scale, .left-info, .right-info {
+.auto-scale, .left-info, .right-info, #top-h, .small-info, .center-h {
   font-size: 6vw;
   font-family: "Montserrat";
   line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .left-info, .right-info {
+    .auto-scale, .left-info, .right-info, #top-h, .small-info, .center-h {
       font-size: 8vw; } }
 
 .layover {
@@ -140,11 +140,15 @@ a.no-line:hover {
 .small-info {
   font-size: 4vw !important;
   font-family: "Montserrat";
-  margin-top: 3%;
+  margin-top: 15%;
   margin-left: 2%; }
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 767px) {
     .small-info {
-      font-size: 3vw !important; } }
+      font-size: 7vw !important; } }
+  @media screen and (max-width: 767px) {
+    .small-info {
+      width: 75%;
+      margin: 4% auto; } }
 
 .center-h {
   font-size: 5vw !important;

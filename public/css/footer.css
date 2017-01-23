@@ -120,15 +120,15 @@ a.no-line:hover {
   text-decoration: none; }
 
 #real-footer {
+  width: 100% !important;
   background-color: #ff7518;
   padding-bottom: 1%;
-  margin: 0; }
+  margin: 0 !important; }
 
 #logo-div {
   margin-bottom: 2%; }
 
 #logo-nav {
-  margin: auto;
   margin-left: 10%;
   margin-top: 7%;
   width: fit-content; }

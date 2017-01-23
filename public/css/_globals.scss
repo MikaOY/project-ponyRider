@@ -79,12 +79,13 @@ $xl: 1200px;
 		font-size: 8vw;
 	}
 }
-@mixin scale-config ($large-screen, $small-screen)
+@mixin scale-config ($breakpoint, $large-screen, $small-screen)
 {
+    @extend .auto-scale;
     font-size: $large-screen !important;
     font-family: $plain-font;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: $breakpoint) {
 		font-size: $small-screen !important;
 	}
 }
