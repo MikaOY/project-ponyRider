@@ -21,21 +21,23 @@
 }
 
 .small-info {
-    @include scale-config(767px,4vw, 7vw);
-    margin-top: 15%;
+    @include scale-config(767px,4vw, 6.2vw);
+    margin-top: 16%;
     margin-left: 2%;
 
     @media screen and (max-width: 767px) {
         width: 75%;
-        margin: 4% auto;
+        margin: 5% auto;
 	}
 }
 
-// For later
-
 .center-h {
-    @include scale-config(650px,5vw, 4vw);
-    margin-bottom: 3%;
+    @include scale-config(650px,5vw, 5vw);
+    margin-bottom: 5%;
+}
+
+.previews-row {
+    margin-bottom: 9%;
 }
 
 .preview-h {

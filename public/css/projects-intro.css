@@ -45,13 +45,20 @@
   -webkit-box-shadow: 0 0 16px black !important;
   box-shadow: 0 0 16px black !important; }
 
-.auto-scale, .left-info, .right-info, #top-h, .small-info, .center-h {
+.auto-scale, .quote, .left-info, .right-info, #top-h, .small-info, .center-h {
   font-size: 6vw;
   font-family: "Montserrat";
   line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .left-info, .right-info, #top-h, .small-info, .center-h {
+    .auto-scale, .quote, .left-info, .right-info, #top-h, .small-info, .center-h {
       font-size: 8vw; } }
+
+.quote {
+  font-size: 4vw !important;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 650px) {
+    .quote {
+      font-size: 5vw !important; } }
 
 .layover {
   position: absolute;
@@ -140,23 +147,26 @@ a.no-line:hover {
 .small-info {
   font-size: 4vw !important;
   font-family: "Montserrat";
-  margin-top: 15%;
+  margin-top: 16%;
   margin-left: 2%; }
   @media screen and (max-width: 767px) {
     .small-info {
-      font-size: 7vw !important; } }
+      font-size: 6.2vw !important; } }
   @media screen and (max-width: 767px) {
     .small-info {
       width: 75%;
-      margin: 4% auto; } }
+      margin: 5% auto; } }
 
 .center-h {
   font-size: 5vw !important;
   font-family: "Montserrat";
-  margin-bottom: 3%; }
+  margin-bottom: 5%; }
   @media screen and (max-width: 650px) {
     .center-h {
-      font-size: 4vw !important; } }
+      font-size: 5vw !important; } }
+
+.previews-row {
+  margin-bottom: 9%; }
 
 .preview-h {
   margin-left: 4%;

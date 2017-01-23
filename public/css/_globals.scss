@@ -89,6 +89,9 @@ $xl: 1200px;
 		font-size: $small-screen !important;
 	}
 }
+.quote {
+    @include scale-config(650px, 4vw, 5vw);
+}
 
 // General div styling
 .layover {

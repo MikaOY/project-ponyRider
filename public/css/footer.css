@@ -47,13 +47,20 @@
   -webkit-box-shadow: 0 0 16px black !important;
   box-shadow: 0 0 16px black !important; }
 
-.auto-scale, .left-info, .right-info {
+.auto-scale, .quote, .left-info, .right-info {
   font-size: 6vw;
   font-family: "Montserrat";
   line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .left-info, .right-info {
+    .auto-scale, .quote, .left-info, .right-info {
       font-size: 8vw; } }
+
+.quote {
+  font-size: 4vw !important;
+  font-family: "Montserrat"; }
+  @media screen and (max-width: 650px) {
+    .quote {
+      font-size: 5vw !important; } }
 
 .layover {
   position: absolute;
