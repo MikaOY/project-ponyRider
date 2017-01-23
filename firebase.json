@@ -6,6 +6,10 @@
     "public": "public",
     "rewrites": [
       {
+        "source": "/projects",
+        "destination": "/projects-intro.html"
+      },
+      {
         "source": "/story",
         "destination": "/our-story.html"
       },
