@@ -20,6 +20,14 @@
     text-align: center;
 }
 
+.small-info {
+    @include scale-config(4vw,3vw);
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+// For later
+
 .center-h {
     @include scale-config(5vw, 4vw);
     margin-bottom: 3%;

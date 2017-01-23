@@ -104,7 +104,9 @@
   box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
 
 .full-width {
-  width: 100%; }
+  width: 100%;
+  padding: 0;
+  margin: 0; }
 
 .side-list {
   margin: 0;
