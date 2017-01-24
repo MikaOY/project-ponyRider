@@ -10,7 +10,7 @@ $nice-font: 'Patua One';
 $primary: rgb(255, 117, 24);
 $contrast: rgb(255, 255, 255);
 $red: #f03d3d;
-$easy-read: rgba(0, 0, 0, 0.5);
+$easy-read: rgb(0, 0, 0);
 
 // Bootstrap variables
 $xs: 0;
@@ -36,6 +36,12 @@ $xl: 1200px;
     background: purple;
 }
 
+// Universal selectors 
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
 // Useful selectors
 // Text effects
 .white-text {
@@ -53,6 +59,14 @@ $xl: 1200px;
 .oomph {
     font-weight: bold;
 }
+.center-h {
+    width: 100%;
+    text-align: center;
+}
+.right-text {
+    text-align: right;
+    margin-right: 3%;
+}
 .easy-read {
 	background-color: $easy-read !important;
 	text-shadow: none !important;
@@ -63,20 +77,38 @@ $xl: 1200px;
 .info-text {
     font-size: 6vw;
     font-family: $plain-font;
+    line-height: 1.428;
 
     @media screen and (max-width: 650px) {
 		font-size: 8vw;
 	}
 }
+@mixin scale-config ($breakpoint, $large-screen, $small-screen)
+{
+    @extend .auto-scale;
+    font-size: $large-screen !important;
+    font-family: $plain-font;
+
+    @media screen and (max-width: $breakpoint) {
+		font-size: $small-screen !important;
+	}
+}
+.quote {
+    @include scale-config(650px, 4vw, 6vw);
+    font-family: $nice-font;
+}
 
 // General div styling
 .left-info {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 7%;
+    @extend .auto-scale;
+    color: black;
     font-size: 4.5vw;
     font-family: $plain-font;
+    text-align: left !important;
 
     @media screen and (max-width: 991px) {
 		margin-left: 15%;
@@ -90,17 +122,31 @@ $xl: 1200px;
     margin: auto;
     margin-top: 6%;
     margin-bottom: 11%;
-    @extend .info-text;
+    @extend .auto-scale;
+    color: black;
     text-align: right;
 }
 
 // Miscellaneous
+.top {
+    padding-top: 60px;
+}
 .img-strip {
     width: 100%;
     margin: 4% 0;
     -moz-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
     -webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
     box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+}
+.shadowed {
+    -moz-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+    box-shadow: 2px 3px 3px rgba(0,0,0,.5);
+}
+.full-width {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .side-list {
     margin: 0;

@@ -1,0 +1,60 @@
+@import 'globals';
+
+.row {
+    margin: 2% 0;
+}
+
+.jumbotron {
+    margin-bottom: -2% !important;
+}
+
+#top-img {
+    width: 100%;
+}
+
+.layover {
+    width: 100% !important;
+}
+
+#top-h {
+    @include scale-config(650px,9vw,7vw);
+    width: 100%;
+    margin-top: 17%;
+    font-family: $nice-font;
+    text-align: center;
+}
+
+.small-info {
+    @include scale-config(767px,4vw, 6.2vw);
+    margin-top: 16%;
+    margin-left: 2%;
+
+    @media screen and (max-width: 767px) {
+        width: 75%;
+        margin: 7% auto;
+	}
+}
+
+.small-info.right-text {
+    @media screen and (max-width: 767px) {
+        margin-left: 13%;
+	}
+}
+
+.quote {
+    margin-top: 16%;
+}
+
+.center-h {
+    @include scale-config(650px,5vw, 5vw);
+    margin-bottom: 5%;
+}
+
+.previews-row {
+    margin-bottom: 9%;
+}
+
+.preview-h {
+    margin-left: 4%;
+    margin-top: 3%;
+}

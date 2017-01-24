@@ -4,8 +4,10 @@
 @import 'globals';
 
 #real-footer {
+    width: 100% !important;
     background-color: $primary;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
+    margin: 0 !important;
 }
 
 // Logo and links 
@@ -15,7 +17,6 @@
 }
 
 #logo-nav {
-    margin: auto;
     margin-left: 10%;
     margin-top: 7%;
     width: fit-content;
@@ -78,10 +79,10 @@
 
     @media screen and (max-width: 767px) {
         margin-left: 10%;
+        margin-top: 9%;
     }
     @media screen and (max-width: 575px) {
         margin-left: 3%;
-        margin-top: 7%;
         margin-bottom: 8%;
     }
 }
