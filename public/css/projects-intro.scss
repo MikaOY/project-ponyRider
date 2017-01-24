@@ -1,5 +1,9 @@
 @import 'globals';
 
+.row {
+    margin: 2% 0;
+}
+
 .jumbotron {
     margin-bottom: -2% !important;
 }
@@ -27,8 +31,18 @@
 
     @media screen and (max-width: 767px) {
         width: 75%;
-        margin: 5% auto;
+        margin: 7% auto;
 	}
+}
+
+.small-info.right-text {
+    @media screen and (max-width: 767px) {
+        margin-left: 13%;
+	}
+}
+
+.quote {
+    margin-top: 16%;
 }
 
 .center-h {

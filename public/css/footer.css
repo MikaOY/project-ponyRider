@@ -40,6 +40,10 @@
   width: 100%;
   text-align: center; }
 
+.right-text {
+  text-align: right;
+  margin-right: 3%; }
+
 .easy-read {
   background-color: black !important;
   text-shadow: none !important;
@@ -57,10 +61,11 @@
 
 .quote {
   font-size: 4vw !important;
-  font-family: "Montserrat"; }
+  font-family: "Montserrat";
+  font-family: "Patua One"; }
   @media screen and (max-width: 650px) {
     .quote {
-      font-size: 5vw !important; } }
+      font-size: 6vw !important; } }
 
 .layover {
   position: absolute;
@@ -75,7 +80,7 @@
 .left-info {
   width: 70%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 4%;
   margin-bottom: 7%;
   color: black;
   font-size: 4.5vw;

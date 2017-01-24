@@ -63,6 +63,10 @@ $xl: 1200px;
     width: 100%;
     text-align: center;
 }
+.right-text {
+    text-align: right;
+    margin-right: 3%;
+}
 .easy-read {
 	background-color: $easy-read !important;
 	text-shadow: none !important;
@@ -90,7 +94,8 @@ $xl: 1200px;
 	}
 }
 .quote {
-    @include scale-config(650px, 4vw, 5vw);
+    @include scale-config(650px, 4vw, 6vw);
+    font-family: $nice-font;
 }
 
 // General div styling
@@ -107,7 +112,7 @@ $xl: 1200px;
 .left-info {
     width: 70%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 7%;
     @extend .auto-scale;
     color: black;
