@@ -1,1 +1,16 @@
 @import 'globals';
+
+a.navbar-brand {
+    width: 175px;
+}
+
+#brand-img {
+    float: left;
+    width: 40px;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+span.nice {
+    float: right;
+}
