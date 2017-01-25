@@ -56,6 +56,9 @@ $xl: 1200px;
 .nice {
     font-family: $nice-font;
 }
+.plain {
+    font-family: $plain-font;
+}
 .oomph {
     font-weight: bold;
 }
@@ -65,7 +68,6 @@ $xl: 1200px;
 }
 .right-text {
     text-align: right;
-    margin-right: 3%;
 }
 .easy-read {
 	background-color: $easy-read !important;
@@ -94,7 +96,7 @@ $xl: 1200px;
 	}
 }
 .quote {
-    @include scale-config(650px, 4vw, 6vw);
+    @include scale-config(850px, 3vw, 5vw);
     font-family: $nice-font;
 }
 

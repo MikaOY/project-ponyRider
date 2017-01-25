@@ -32,6 +32,9 @@
 .nice {
   font-family: "Patua One"; }
 
+.plain {
+  font-family: "Montserrat"; }
+
 .oomph {
   font-weight: bold; }
 
@@ -40,8 +43,7 @@
   text-align: center; }
 
 .right-text {
-  text-align: right;
-  margin-right: 3%; }
+  text-align: right; }
 
 .easy-read {
   background-color: black !important;
@@ -59,12 +61,12 @@
       font-size: 8vw; } }
 
 .quote {
-  font-size: 4vw !important;
+  font-size: 3vw !important;
   font-family: "Montserrat";
   font-family: "Patua One"; }
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 850px) {
     .quote {
-      font-size: 6vw !important; } }
+      font-size: 5vw !important; } }
 
 .layover, .info-1, .info-2, .info-3 {
   position: absolute;
