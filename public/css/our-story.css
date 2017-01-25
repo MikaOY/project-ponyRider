@@ -51,17 +51,28 @@
   -webkit-box-shadow: 0 0 16px black !important;
   box-shadow: 0 0 16px black !important; }
 
-.auto-scale, .quote, .left-info, .right-info, .small-note {
+.auto-scale, .info, .quote, .left-info, .right-info, .small-note {
   font-size: 5vw;
   font-family: "Montserrat";
   line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .quote, .left-info, .right-info, .small-note {
+    .auto-scale, .info, .quote, .left-info, .right-info, .small-note {
       font-size: 8vw; } }
+
+.info {
+  font-size: 2vw; }
+  @media screen and (max-width: 1000px) {
+    .info {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 767px) {
+    .info {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 650px) {
+    .info {
+      font-size: 3.5vw; } }
 
 .quote {
   font-size: 3vw !important;
-  font-family: "Montserrat";
   font-family: "Patua One"; }
   @media screen and (max-width: 850px) {
     .quote {
@@ -208,7 +219,6 @@ a.no-line:hover {
 
 .small-note {
   font-size: 3vw !important;
-  font-family: "Montserrat";
   width: 100%;
   margin: auto;
   margin-bottom: 5%;

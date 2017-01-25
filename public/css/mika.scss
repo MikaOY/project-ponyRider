@@ -1,27 +1,5 @@
 @import 'globals';
 
-// Generals
-p {
-    margin-left: 4%;
-    margin-right: 6% !important;
-    font-size: 1.8vw;
-
-    @media screen and (max-width: 1125px) {
-		font-size: 2.1vw;
-	}
-    @media screen and (max-width: 991px) {
-		font-size: 2.7vw;
-	}
-    @media screen and (max-width: 767px) {
-		margin-left: 8% !important;
-        margin-right: 8%;
-	}
-}
-.border-p {
-    @extend p;
-    margin-left: 9% !important;
-}
-
 #top-jumbo {
     margin-top: 40px;
     margin-bottom: 5%;
@@ -34,6 +12,23 @@ p {
         margin-left: 10%;
         margin-bottom: -1%;
     }
+}
+
+p.info {
+    margin-left: 4%;
+    margin-right: 6% !important;
+
+    @media screen and (max-width: 900px) {
+		font-size: 2.6vw;
+	}
+    @media screen and (max-width: 767px) {
+		margin-left: 8% !important;
+        margin-right: 8%;
+	}
+}
+.border-p {
+    @extend p;
+    margin-left: 9% !important;
 }
 
 .person-img-col {
@@ -87,15 +82,15 @@ p {
         margin-left: 4%;
     }
 
-    // Next div
+    // After tables
 
     #top-p {
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 0;
     }
 
     #bottom-p {
-        margin-bottom: 9%;
+        margin-bottom: 5%;
     }
 
     h3 {

@@ -51,17 +51,28 @@
   -webkit-box-shadow: 0 0 16px black !important;
   box-shadow: 0 0 16px black !important; }
 
-.auto-scale, .quote, .left-info, .right-info {
+.auto-scale, .info, .quote, .left-info, .right-info {
   font-size: 5vw;
   font-family: "Montserrat";
   line-height: 1.428; }
   @media screen and (max-width: 650px) {
-    .auto-scale, .quote, .left-info, .right-info {
+    .auto-scale, .info, .quote, .left-info, .right-info {
       font-size: 8vw; } }
+
+.info {
+  font-size: 2vw; }
+  @media screen and (max-width: 1000px) {
+    .info {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 767px) {
+    .info {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 650px) {
+    .info {
+      font-size: 3.5vw; } }
 
 .quote {
   font-size: 3vw !important;
-  font-family: "Montserrat";
   font-family: "Patua One"; }
   @media screen and (max-width: 850px) {
     .quote {
@@ -131,24 +142,6 @@
 a.no-line:hover {
   text-decoration: none; }
 
-p, .border-p {
-  margin-left: 4%;
-  margin-right: 6% !important;
-  font-size: 1.8vw; }
-  @media screen and (max-width: 1125px) {
-    p, .border-p {
-      font-size: 2.1vw; } }
-  @media screen and (max-width: 991px) {
-    p, .border-p {
-      font-size: 2.7vw; } }
-  @media screen and (max-width: 767px) {
-    p, .border-p {
-      margin-left: 8% !important;
-      margin-right: 8%; } }
-
-.border-p {
-  margin-left: 9% !important; }
-
 #top-jumbo {
   margin-top: 40px;
   margin-bottom: 5%; }
@@ -158,6 +151,20 @@ p, .border-p {
   #top-jumbo p, #top-jumbo .border-p {
     margin-left: 10%;
     margin-bottom: -1%; }
+
+p.info, .info.border-p {
+  margin-left: 4%;
+  margin-right: 6% !important; }
+  @media screen and (max-width: 900px) {
+    p.info, .info.border-p {
+      font-size: 2.6vw; } }
+  @media screen and (max-width: 767px) {
+    p.info, .info.border-p {
+      margin-left: 8% !important;
+      margin-right: 8%; } }
+
+.border-p {
+  margin-left: 9% !important; }
 
 .person-img-col {
   overflow: hidden; }
@@ -202,10 +209,10 @@ p, .border-p {
 .person-info-col p, .person-info-col .border-p {
   margin-left: 4%; }
 .person-info-col #top-p {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 0; }
 .person-info-col #bottom-p {
-  margin-bottom: 9%; }
+  margin-bottom: 5%; }
 .person-info-col h3 {
   margin-left: 16%;
   margin-bottom: 5.5%;
