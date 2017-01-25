@@ -22,7 +22,7 @@
 .white-text {
   color: white; }
 
-.black-text {
+.black-text, .small-note {
   color: black; }
 
 .primary-col {
@@ -131,10 +131,10 @@
 a.no-line:hover {
   text-decoration: none; }
 
-#top-jumbo {
+#top-row {
   margin-bottom: 9%; }
   @media screen and (max-width: 660px) {
-    #top-jumbo {
+    #top-row {
       margin-bottom: 12%; } }
 
 #top-h {
@@ -207,11 +207,16 @@ a.no-line:hover {
   margin-top: 10%; }
 
 .small-note {
+  font-size: 3vw !important;
+  font-family: "Montserrat";
   width: 100%;
   margin: auto;
   margin-bottom: 5%;
   font-size: 2.7vw;
   text-align: center; }
+  @media screen and (max-width: 650px) {
+    .small-note {
+      font-size: 4vw !important; } }
 
 #projects-huge {
   width: 100%;

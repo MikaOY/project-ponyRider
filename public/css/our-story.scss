@@ -1,6 +1,6 @@
 @import 'globals';
 
-#top-jumbo {
+#top-row {
     margin-bottom: 9%;
 
     @media screen and (max-width: 660px) {
@@ -86,7 +86,8 @@
 }
 
 .small-note {
-    @extend .auto-scale;
+    @extend .black-text;
+    @include scale-config(650px,3vw,4vw);
     width: 100%;
     margin: auto;
     margin-bottom: 5%;
