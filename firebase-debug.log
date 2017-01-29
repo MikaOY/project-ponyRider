@@ -1,56 +1,20 @@
 [debug] ----------------------------------------------------------------------
-[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
 [debug] CLI Version:  3.2.1
 [debug] Platform:     darwin
 [debug] Node Version: v6.9.1
-[debug] Time:         Tue Jan 24 2017 12:32:30 GMT+0800 (MYT)
+[debug] Time:         Sun Jan 29 2017 15:22:12 GMT+0800 (MYT)
 [debug] ----------------------------------------------------------------------
 [debug] 
-[info] Starting Firebase development server...
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ramen-testing 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ramen-testing/tokens 
+[debug] <<< HTTP RESPONSE 200
 [info] 
-[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
-[info] Public Directory: public
+[info] === Deploying to 'ramen-testing'...
 [info] 
-[info] Server listening at: http://localhost:5000
-[debug] ----------------------------------------------------------------------
-[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] CLI Version:  3.2.1
-[debug] Platform:     darwin
-[debug] Node Version: v6.9.1
-[debug] Time:         Tue Jan 24 2017 17:59:11 GMT+0800 (MYT)
-[debug] ----------------------------------------------------------------------
-[debug] 
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
-[debug] ----------------------------------------------------------------------
-[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] CLI Version:  3.2.1
-[debug] Platform:     darwin
-[debug] Node Version: v6.9.1
-[debug] Time:         Wed Jan 25 2017 08:43:26 GMT+0800 (MYT)
-[debug] ----------------------------------------------------------------------
-[debug] 
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
-[debug] ----------------------------------------------------------------------
-[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] CLI Version:  3.2.1
-[debug] Platform:     darwin
-[debug] Node Version: v6.9.1
-[debug] Time:         Sun Jan 29 2017 14:41:04 GMT+0800 (MYT)
-[debug] ----------------------------------------------------------------------
-[debug] 
-[info] Starting Firebase development server...
-[info] 
-[info] Project Directory: /Users/Mika/Desktop/RAMEN Website
-[info] Public Directory: public
-[info] 
-[info] Server listening at: http://localhost:5000
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/ramen-testing/uploads/-Kbd5aPRZ8Yoh8nUmTaY?fileCount=20459&message= 
