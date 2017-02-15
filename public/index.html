@@ -101,6 +101,97 @@
 		<!-- /.container-fluid --> 
 	</nav>
 
+	<!-- Carousel -->
+
+	<div id="my-carousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+			<li data-target="#my-carousel" data-slide-to="1"></li>
+			<li data-target="#my-carousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides 
+			Image dimensions: 1920 x 800 -->
+		<div class="carousel-inner" role="listbox">			
+			<div class="item active">
+				<img class="carousel-logo" src="./src/resources/ramen-white.png"> 
+				<img src="./src/resources/web-blu-close.jpg" alt="Two 3D printed cats">	
+				<div class="info-1">
+					<h1 class="cap-1">Learning. <br>Reinvented.</h1>
+					<p class="p-1"><b>RAMEN</b> is redefining learning. <br>
+					And fun. <br>
+					<a href="#projects"> <b>See for yourself.</b></a> 
+					</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./src/resources/web-laughing.jpg" alt="Us laughing">
+				<div class="info-2">
+					<h1 class="cap-2">United <br>by passion <br>for discovery.</h1>
+					<p class="p-2"><a href="#about"><b>Learn</b></a> what makes us <b>RAMEN</b>.
+					</p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="./src/resources/web-blu.jpg" alt="Simon and Mika at work">
+				<div class="info-3">
+					<h1 class="cap-3">Resilient. <br> Tenacious. <br> Unstoppable. <br></h1> 
+					<p class="p-3"><a href="#support"><b>Support us</b></a> to fuel <b>madness</b>.
+					</p>
+				</div>
+			</div> 
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#my-carousel" role="button" data-slide="next">
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<div id="mobile-carousel">
+		<div id="mobile-div-1">
+			<img class="mobile carousel-logo" src="./src/resources/ramen-white.png"> 
+			<img class="mobile-img" src="./src/resources/web-blu-close.jpg" alt="Two 3D printed cats">	
+			<div class="mobile info-1">
+				<h1 class="mobile cap-1">Learning. <br>Reinvented.</h1>
+				<p class="mobile p-1"><b>RAMEN</b> is redefining learning. <br>
+				And fun. <br>
+				<a href="#projects"> <b>See for yourself.</b></a> 
+				</p>
+			</div>
+		</div>
+		<div id="mobile-div-2">
+			<img class="mobile-img" src="./src/resources/web-laughing.jpg" alt="Us laughing">
+				<div class="mobile info-2">
+				<h1 class="mobile cap-2">United <br>by passion <br>for discovery.</h1>
+				<p class="mobile p-2"><a href="#about"><b>Learn</b></a> what makes us <b>RAMEN</b>.
+				</p>
+			</div>
+		</div>
+		<div id="mobile-div-3">
+			<img class="mobile-img" src="./src/resources/web-blu.jpg" alt="Simon and Mika at work">
+			<div class="mobile info-3 easy-read">
+				<h1 class="mobile cap-3">Resilient. <br> Tenacious. <br> Unstoppable. <br></h1> 
+				<p class="mobile p-3"><a href="#support"><b>Support us</b></a> to fuel <b>madness</b>.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Site development alert -->
+	<div class="alert alert-info alert-dismissible fade in" role="alert">
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		This site, like its creator, is learning to be better.
+	</div>
+
+	<!-- Aurelia App -->
+
 	<div aurelia-app="main">
 		<div class="splash">
 		<div class="message"><%- htmlWebpackPlugin.options.metadata.title %></div>
@@ -118,7 +209,7 @@
         <div class="row">
             <div id="logo-div" class="col-sm-6">
                 <div id="logo-nav">
-                    <img id="footer-logo" src="../resources/ramen-white.png" alt="Our logo">
+                    <img id="footer-logo" src="./src/resources/ramen-white.png" alt="Our logo">
                     <ul id="footer-nav" class="white-text">
                         <li><a href="../index.html">Home</a></li>
                         <li><a href="../index.html#projects">Projects</a></li> 
@@ -150,7 +241,7 @@
 					</a>
 					<!--
 					<a class="btn" target="_blank" href="https://www.patreon.com/">
-						<img id="patreon" src="resources/patreon-black.png" alt="Patreon">
+						<img id="patreon" src="./src/resources/patreon-black.png" alt="Patreon">
 					</a>
 					-->
 				</ul>
