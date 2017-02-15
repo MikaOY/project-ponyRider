@@ -1,12 +1,15 @@
-import {RouterConfiguration, Router} from 'aurelia-router';
+import {Aurelia} from 'aurelia-framework';
+import {Router, RouterConfiguration} from 'aurelia-router';
 
 export class App {
-  configureRouter(config: RouterConfiguration, router: Router): void {
+  router: Router;
+
+  configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'RAMEN';
     config.map([
-      { route: ['', 'home'], name: 'home',     moduleId: 'components/home/home',         title:'Home' },
-      { route: 'projects',   name: 'projects', moduleId: 'components/projects/projects', title:'Home' },
+      { route: ['', 'home'], name: 'home',      moduleId: './home',      nav: true, title: 'Home' }
     ]);
+
     this.router = router;
   }
 }

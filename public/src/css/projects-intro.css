@@ -1,0 +1,204 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Patua+One");
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.green {
+  background: green; }
+
+.yellow {
+  background: yellow; }
+
+.purple {
+  background: purple; }
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px; }
+
+.white-text {
+  color: white; }
+
+.black-text {
+  color: black; }
+
+.primary-col {
+  color: #ff7518; }
+
+.nice {
+  font-family: "Patua One"; }
+
+.plain {
+  font-family: "Montserrat"; }
+
+.oomph {
+  font-weight: bold; }
+
+.center-h {
+  width: 100%;
+  text-align: center; }
+
+.right-text {
+  text-align: right; }
+
+.easy-read {
+  background-color: black !important;
+  text-shadow: none !important;
+  -moz-box-shadow: 0 0 16px black !important;
+  -webkit-box-shadow: 0 0 16px black !important;
+  box-shadow: 0 0 16px black !important; }
+
+.auto-scale, .info, .quote, .left-info, .right-info, .jumbotron .layover #top-h, #previews-title.center-h {
+  font-size: 5vw;
+  font-family: "Montserrat";
+  line-height: 1.428; }
+  @media screen and (max-width: 650px) {
+    .auto-scale, .info, .quote, .left-info, .right-info, .jumbotron .layover #top-h, #previews-title.center-h {
+      font-size: 8vw; } }
+
+.info {
+  font-size: 2vw; }
+  @media screen and (max-width: 1000px) {
+    .info {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 767px) {
+    .info {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 650px) {
+    .info {
+      font-size: 3.5vw; } }
+
+.quote {
+  font-size: 3vw !important;
+  font-family: "Patua One"; }
+  @media screen and (max-width: 850px) {
+    .quote {
+      font-size: 5vw !important; } }
+
+.layover {
+  position: absolute;
+  bottom: 0%;
+  top: 0%;
+  width: 50%;
+  z-index: 20;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-align: left;
+  color: #ff7518; }
+
+.left-info {
+  width: 70%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 7%;
+  color: black;
+  font-size: 4.5vw;
+  font-family: "Montserrat";
+  text-align: left !important; }
+  @media screen and (max-width: 991px) {
+    .left-info {
+      margin-left: 15%;
+      margin-right: 5%;
+      width: 70%;
+      font-size: 5.5vw; } }
+
+.right-info {
+  width: 70%;
+  margin: auto;
+  margin-top: 6%;
+  margin-bottom: 11%;
+  color: black;
+  text-align: right; }
+
+.top {
+  padding-top: 60px; }
+
+.img-strip {
+  width: 100%;
+  margin: 4% 0;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+
+.shadowed {
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5); }
+
+.full-width {
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.side-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .side-list li {
+    display: inline-block; }
+
+a.no-line:hover {
+  text-decoration: none; }
+
+.jumbotron {
+  padding-top: 60px !important; }
+  .jumbotron #top-img {
+    width: 100%; }
+  .jumbotron .layover {
+    width: 100% !important;
+    padding: 17% 0; }
+    @media screen and (max-width: 650px) {
+      .jumbotron .layover {
+        padding: 22% 0; } }
+    .jumbotron .layover #top-h {
+      font-size: 9vw !important;
+      width: 100%;
+      font-family: "Patua One";
+      text-align: center; }
+      @media screen and (max-width: 650px) {
+        .jumbotron .layover #top-h {
+          font-size: 7vw !important; } }
+
+.small-info {
+  margin-top: 16%;
+  margin-left: 2%; }
+  @media screen and (max-width: 950px) {
+    .small-info {
+      margin-top: 6%; } }
+  @media screen and (max-width: 791px) {
+    .small-info {
+      margin-top: -2%; } }
+  @media screen and (max-width: 767px) {
+    .small-info {
+      width: 75%;
+      margin: 7% auto; } }
+
+#longer-small-info {
+  margin-right: 9%;
+  margin-top: 16%; }
+  @media screen and (max-width: 767px) {
+    #longer-small-info {
+      margin-left: 13%;
+      margin-top: 7%; } }
+
+.quote {
+  margin-top: 16%; }
+
+#previews-title.center-h {
+  font-size: 5vw !important;
+  margin-top: 9%;
+  margin-bottom: 5%; }
+  @media screen and (max-width: 650px) {
+    #previews-title.center-h {
+      font-size: 5vw !important; } }
+
+.previews-row {
+  margin-bottom: 9%; }
+
+.preview-h {
+  margin-left: 4%;
+  margin-top: 3%; }
+
+/*# sourceMappingURL=projects-intro.css.map */

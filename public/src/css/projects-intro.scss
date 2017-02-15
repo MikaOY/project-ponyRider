@@ -1,0 +1,70 @@
+@import 'globals';
+
+.jumbotron {
+    padding-top: 60px !important;
+
+    #top-img {
+        width: 100%;
+    }
+
+    .layover {
+        width: 100% !important;
+        padding: 17% 0;
+
+        @media screen and (max-width: 650px) {
+            padding: 22% 0;
+        }
+
+        #top-h {
+            @include scale-config(650px,9vw,7vw);
+            width: 100%;
+            font-family: $nice-font;
+            text-align: center;
+        }
+    }
+}
+
+.small-info {
+    margin-top: 16%;
+    margin-left: 2%;
+
+    @media screen and (max-width: 950px) {
+        margin-top: 6%;
+	}
+    @media screen and (max-width: 791px) {
+        margin-top: -2%;
+	}
+    @media screen and (max-width: 767px) {
+        width: 75%;
+        margin: 7% auto;
+	}
+}
+
+#longer-small-info {
+    margin-right: 9%;
+    margin-top: 16%;
+
+    @media screen and (max-width: 767px) {
+        margin-left: 13%;
+        margin-top: 7%;
+	}
+}
+
+.quote {
+    margin-top: 16%;
+} 
+
+#previews-title.center-h {
+    @include scale-config(650px,5vw,5vw);
+    margin-top: 9%;
+    margin-bottom: 5%;
+}
+
+.previews-row {
+    margin-bottom: 9%;
+}
+
+.preview-h {
+    margin-left: 4%;
+    margin-top: 3%;
+}

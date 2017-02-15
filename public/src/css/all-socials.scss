@@ -1,0 +1,42 @@
+@import 'globals';
+
+.all-socials-icon {
+    font-size: 4vw;
+    color: black;
+
+    @media screen and (max-width: 991px) {
+        font-size: 5vw;
+    }
+    @media screen and (max-width: 767px) {
+        font-size: 6vw;
+    }
+    @media screen and (max-width: 575px) {
+        font-size: 7vw;
+    }
+    @media screen and (max-width: 393px) {
+        font-size: 8vw;
+    }
+    @media screen and (max-width: 300px) {
+        font-size: 9vw;
+    }
+}
+
+#patreon {
+    width: 4vw;
+
+    @media screen and (max-width: 991px) {
+        width: 5vw;
+    }
+    @media screen and (max-width: 767px) {
+        width: 6vw;
+    }
+    @media screen and (max-width: 575px) {
+        width: 7vw;
+    }
+    @media screen and (max-width: 393px) {
+        width: 8vw;
+    }
+    @media screen and (max-width: 300px) {
+        width: 9vw;
+    }
+}
