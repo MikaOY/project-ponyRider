@@ -56,6 +56,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="commonNav">
 			<ul class="nav navbar-nav">
+				<!--
 				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html">Home</a></li>
 				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
 				aria-expanded="false">Projects<span class="caret"></span></a>
@@ -64,15 +65,14 @@
 					<li class="divider"></li>
 					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project BLU (coming soon)</a></li>
 					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project CaMo (coming soon)</a></li>
-					<!-- For later
 					<li class="divider"></li>
 					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project RAD (coming soon)</a></li>
 					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project MakerMaker (coming soon)</a></li>
-					-->
 				</ul>
 				</li>
 				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Our Story</a></li>
 				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Support Us</a></li>
+				-->
 			</ul>
 			<!--
 			<form class="navbar-form navbar-right" role="search">
@@ -182,21 +182,9 @@
 		</div>
 	</div>
 
-	<!-- Site development alert -->
-	<div class="alert alert-info alert-dismissible fade in" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		</button>
-		This site, like its creator, is learning to be better.
-	</div>
-
 	<!-- Aurelia App -->
 
 	<div aurelia-app="main">
-		<div class="splash">
-		<div class="message"><%- htmlWebpackPlugin.options.metadata.title %></div>
-			<i class="fa fa-spinner fa-spin"></i>
-		</div>
 		<% if (htmlWebpackPlugin.options.metadata.ENV === 'development') { %>
 			<!-- Webpack Dev Server reload -->
 			<script src="/webpack-dev-server.js"></script>

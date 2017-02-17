@@ -140,7 +140,7 @@
     display: inline-block; }
 
 a.no-line:hover {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 a.navbar-brand {
   width: 175px; }

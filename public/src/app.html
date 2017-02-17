@@ -1,4 +1,14 @@
 <template>
+	<require from="./css/app.css"></require>
+
+	<nav>
+		<ul id="router-nav" class="side-list">
+			<li class="router-li" repeat.for="row of router.navigation">
+				<a href.bind="row.href">${row.title}</a>
+			</li>
+		</ul>
+	</nav>
+
 	<div class="container">
 		<div class="row">
 			<router-view></router-view>
