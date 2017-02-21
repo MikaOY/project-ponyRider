@@ -55,46 +55,46 @@
 			
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="commonNav">
-			<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav">
+					<!--
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html">Home</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+					aria-expanded="false">Projects<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Why Projects?</a></li>
+						<li class="divider"></li>
+						<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project BLU (coming soon)</a></li>
+						<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project CaMo (coming soon)</a></li>
+						<li class="divider"></li>
+						<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project RAD (coming soon)</a></li>
+						<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project MakerMaker (coming soon)</a></li>
+					</ul>
+					</li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Our Story</a></li>
+					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Support Us</a></li>
+					-->
+				</ul>
 				<!--
-				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="index.html">Home</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
-				aria-expanded="false">Projects<span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Why Projects?</a></li>
-					<li class="divider"></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project BLU (coming soon)</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project CaMo (coming soon)</a></li>
-					<li class="divider"></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project RAD (coming soon)</a></li>
-					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Project MakerMaker (coming soon)</a></li>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+					<input type="text" class="form-control" placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Link</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li class="divider"></li>
+						<li><a href="#">Separated link</a></li>
+					</ul>
+					</li>
 				</ul>
-				</li>
-				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Our Story</a></li>
-				<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Support Us</a></li>
 				-->
-			</ul>
-			<!--
-			<form class="navbar-form navbar-right" role="search">
-				<div class="form-group">
-				<input type="text" class="form-control" placeholder="Search">
-				</div>
-				<button type="submit" class="btn btn-default">Submit</button>
-			</form>
-			
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Link</a></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown<span class="caret"></span></a>
-				<ul class="dropdown-menu" role="menu">
-					<li><a href="#">Action</a></li>
-					<li><a href="#">Another action</a></li>
-					<li><a href="#">Something else here</a></li>
-					<li class="divider"></li>
-					<li><a href="#">Separated link</a></li>
-				</ul>
-				</li>
-			</ul>
-			-->
 			</div>
 			<!-- /.navbar-collapse --> 
 		</div>
@@ -185,10 +185,7 @@
 	<!-- Aurelia App -->
 
 	<div aurelia-app="main">
-		<% if (htmlWebpackPlugin.options.metadata.ENV === 'development') { %>
-			<!-- Webpack Dev Server reload -->
-			<script src="/webpack-dev-server.js"></script>
-		<% } %>
+		
 	</div>
 
 	<!-- Footer -->

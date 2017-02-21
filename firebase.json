@@ -4,19 +4,13 @@
   },
   "hosting": {
     "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
     "rewrites": [
-      {
-        "source": "/projects",
-        "destination": "/projects-intro.html"
-      },
-      {
-        "source": "/story",
-        "destination": "/our-story.html"
-      },
-      {
-        "source": "/mika",
-        "destination": "/mika.html"
-      }
+      
     ]
   }
 }
